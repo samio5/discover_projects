@@ -171,7 +171,7 @@ table {
 
 .group {
   clear: both;
-  *zoom: 1;
+  zoom: 1;
 }
 
 /*
@@ -260,7 +260,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #ffffff;
+  color: #000000;
 }
 
 h1 {
@@ -282,7 +282,7 @@ h4 {
 }
 
 h5 {
-  color: #ffffff;
+  color: #000000;
   font-size: 14px;
   font-weight: 400;
 }
@@ -325,7 +325,7 @@ p a {
 }
 .nav li{
   display: inline-block;
-  margin: 0 10;
+  margin: 0 10px;
   vertical-align: top;
 }
 .nav li:last-child{
@@ -350,6 +350,10 @@ p a {
 */
 .lead{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #000000;
 }
 .lead p{
@@ -452,12 +456,12 @@ p a {
 
 .tagline {
   margin: 66px 0 22px 0;
+  color: white;
 }
 
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
-  
 }
 
 .primary-footer {
@@ -474,7 +478,7 @@ p a {
 }
 
 .footer-nav {
-  word-spacing: 5px;
+  word-spacing: 20px;
 }
 
 .hero {
@@ -496,7 +500,7 @@ p a {
 }
 
 h5 {
-  color: #ffffff;
+  color: #000000;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -505,7 +509,7 @@ h5 {
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: .5px;
+  letter-spacing: .2px;
   text-transform: uppercase;
   text-align: right;
   word-spacing: 20px;
@@ -523,7 +527,7 @@ h5 {
 }
 
 body{
-  color: #ffffff;
+  color: #000000;
   font: 400 16px/22px "Rubik", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
@@ -565,7 +569,7 @@ body{
 }
 
 .row{
-  background: #757575;
+  background: #ffffff;
   padding: 66px 0 44px 0;
 }
 
@@ -574,7 +578,8 @@ body{
   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
   background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-  padding: 44px 0 22px 0;
+  padding: 44px 0 50px 0;
+  margin-bottom: 0px;
 }
 
 .teaser img{
@@ -589,4 +594,76 @@ body{
   height: 130px;
   vertical-align: top;
   margin: -66px 0 22px 0;
+}
+
+.venue-map{
+  height: 264px;
+}
+
+/*
+  ========================================
+  Register
+  ========================================
+*/
+
+.why-attend{
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
+
+form{
+  margin-bottom: 22px;
+}
+
+input,
+select,
+textarea{
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.register-group label{
+  color: #000000;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.register-group input,
+.register-group select,
+.register-group textarea{
+  border:1px solid #000000;
+  border-radius: 5px;
+  color: #000000;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+
+.register-group input,
+.register-group textarea{
+  width: 100%;
+}
+
+.register-group input{
+  color: #ffffff;
+}
+
+.register-group select{
+  height: 34px;
+  width: 60px;
+}
+
+.register-group textarea{
+  height: 78px;
+}
+
+.btn-default{
+  border: 0;
+  background: #2f413d;
+  color: #ff0000;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+
+.btn-default:hover{
+  background: #1b2523;
 }

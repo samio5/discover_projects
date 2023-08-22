@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Practice/form-practice/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>LOGIN EXAMPLE</h1>
+
+    <!--! Login example -->
+
+    <form class="lg-ex">
+        <fieldset class="account-info">
+            <label>
+                Username: <input type="text" name="username">
+            </label>
+            <label>
+                Password: <input type="text" name="username">
+            </label>
+        </fieldset>
+
+        <fieldset class="account-action">
+            <input class="btn" type="submit" name="submit" value="Login">
+            <label>
+                <input type="checkbox" name="remember"> Stay signed in?
+            </label>
+        </fieldset>
+    </form>
+
+
+    <!--! FORM STUDYING TEST -->
+
+    <fieldset>
+        <legend>Form Example</legend>
+        <form action="/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Josh">
+
+            <label>
+                Birthdate: <input type="date" name="birthdate">
+            </label>
+            
+
+            <label>
+                Time:<input type="time" name="time">
+            </label>
+            
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="required-attribute-example" required>
+
+            <label for="url">Portfolio:</label>
+            <input type="url" name="url" id="url" placeholder="disabled-attribute-example" disabled>
+
+            <label for="number">Cost:</label>
+            <input type="number" name="number" id="number">
+
+            <label for="tel">Phone number:</label>
+            <input type="tel" name="tel" id="tel" value="" placeholder="+966">
+
+            <textarea name="comment" id="" cols="30px" rows="9px">Add your comment:</textarea>
+
+            <hr>
+
+            <label for="select">Friday:</label>
+            <input type="radio" name="select" id="" value="Friday" checked>
+            <label for="select">Saturday:</label>
+            <input type="radio" name="select" id="" value="Saturday">
+            <label for="select">Sunday:</label>
+            <input type="radio" name="select" id="" value="Sunday">
+
+            <hr>
+
+            <label for="day">Friday:</label>
+            <input type="checkbox" name="day" value="Friday" checked>
+            <label for="day">Saturday:</label>
+            <input type="checkbox" name="day" value="Saturday">
+            <label for="day">Sunday:</label>
+            <input type="checkbox" name="day" value="Sunday">
+
+            <hr>
+
+            <select name="day" id="">
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday" selected>Sunday</option>
+                <option value="Monday">Monday</option>
+            </select>
+
+            <hr>
+
+            <input type="submit" name="submit" value="Submit">
+
+            <hr>
+
+            <button name="submit">
+                <strong>Contact us</strong>
+            </button>
+
+            <hr>
+
+            <input type="hidden" name='tracking-code' value="abc-123">
+
+            <hr>
+
+            <input type="file" name="file">
+
+            <hr>
+
+            <label>
+                Username: <input type="text" name="username">                
+            </label>
+
+            <label>
+                Password: <input type="text" name="password">
+            </label>
+        </form>
+    </fieldset>
+</body>
+</html>
