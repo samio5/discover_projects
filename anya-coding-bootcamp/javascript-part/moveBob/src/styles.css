@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(70, 99, 109);
+}
+
+.face{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: rgb(189, 169, 139);
+    margin: 80px 0 0 50px ;
+    position: absolute;
+    
+}
+
+.eye-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-top: 20px;
+    /* background-color: red; */
+}
+
+.eye{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.pupil{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin: 10px 10px 10px 10px;
+}

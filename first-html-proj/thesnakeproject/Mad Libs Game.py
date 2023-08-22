@@ -1,0 +1,13 @@
+adjec1 = input("Enter an adjective: ")
+adjec2 = input("Enter a second adjective: ")
+typeofbird = input("Enter a type of bird: ")
+roominahouse = input("Enter a name of a room: ")
+verbpasttense = input("Enter a verb: ")
+verb = input("Enter a second verb: ")
+relativename = input("Enter a relative's name: ")
+noun = input("Enter a noun: ")
+
+print("It was a " + adjec1 + ", cold November day.")
+print("I woke up to the " + adjec2 + " smell of " + typeofbird + " roasting in the " + roominahouse + " downstairs.")
+print("I " + verbpasttense + " down the stairs to see if I could help " + verb + " the dinner.")
+print("Ellie said, ''See if " + relativename + " needs a fresh " + noun + "'' ")

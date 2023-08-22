@@ -1,0 +1,107 @@
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <center><ins><h1>Forms</h1></ins></center>
+
+        <!--Attributes: action="do_something.php"-->
+        
+        <form action="">
+            <label for="first_name">First Name:</label>
+            <!--Input is a self-closing tag-->
+
+            <!-- name attribute is used during form submission to post or get the values that we submit when we are pressing a submit button, its a server side function that work with server side languages like php etc-->
+            <input type="text" id="first_name" name="first_name" placeholder="James">
+
+            <br><br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Bond">
+
+            <br><br>
+
+            <label for="title">Title:</label>
+
+            <label for="Mr. ">Mr.</label>
+            <input type="radio" value="Mr. " id="Mr. " name="title">
+
+            <label for="Mrs. ">Mrs.</label>
+            <input type="radio" value="Mrs. " id="Mrs. " name="title">
+
+            <label for="Miss. ">Miss</label>
+            <input type="radio" value="Miss. " id="Miss. " name="title">
+
+            <label for="PhD. ">PhD.</label>
+            <input type="radio" value="PhD. " id="PhD. " name="title">
+
+            <label for="Sir. ">Sir.</label>
+            <input type="radio" value="Sir. " id="Sir. " name="title">
+
+            <br><br>
+
+            <label for="payment">Payment:</label>
+            <select id="payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="paypal">Paypal</option>
+            <option value="apple pay">Apple Pay</option>
+            <option value="apple pay">Google Pay</option>
+
+        </select>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="jamesbond123@gmail.com">
+
+            <br><br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" min="2000-01-01">
+
+            <br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" value="1">
+
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" min="7" maxlength="22"> - Max length of characters is 22
+            
+
+            <br><br>
+
+            <label for="rate">Rate Us:</label>
+            1 <input type="range" id="rate" name="rate" step="25" value="50"> 5
+
+            <br><br>
+
+            <label for="subscribe">Subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+
+            <br><br>
+
+            <label for="upload">Upload a file:</label>
+            <input type="file" id="upload" name="upload">
+
+            <br><br>
+
+            <input type="reset">
+
+            <br><br>
+
+            <input type="submit">
+            
+        </form>
+    </body>
+</html>

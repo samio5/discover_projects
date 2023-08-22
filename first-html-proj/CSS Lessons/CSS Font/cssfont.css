@@ -1,0 +1,18 @@
+
+
+#red{
+    text-decoration:underline wavy rgb(0, 255, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#red2{
+    font-family: 'Rubik', 'Open Sans' sans-serif;
+    font-style: italic; 
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration:underline rgb(0, 255, 0);
+    
+
+}
+

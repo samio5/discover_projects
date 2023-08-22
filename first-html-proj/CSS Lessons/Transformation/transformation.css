@@ -1,0 +1,49 @@
+#par1{
+    border: 2px solid;
+    width: 300px;
+    background-color:rgb(207, 207, 207);
+    font-size: 75px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#par2{
+    border: 2px solid;
+    width: 300px;
+    background-color:springgreen;
+    font-size: 75px;
+    text-align: center;
+
+    margin: auto;
+    border-radius: 20px;
+
+    font-family: 'Rubik', sans-serif;
+    /*transform: translateX(100px);*/
+
+    /*transform: translateY(-35px);*/
+
+    /*transform: translate(100px,100px);*/
+
+    /*transform: rotateX(180deg);*/
+
+    /*transform: rotateY(180deg)*/
+
+    /*transform: rotateZ(180deg);*/
+
+    /*transform: scale(2,2);*/
+
+    /*transform: skewX(35deg);*/
+
+    /*transform: skewY(35deg);*/
+
+    transform: matrix(2,0.5,0.5,2,0,0);
+
+    /* 
+    1st: scaleX()
+    2nd: skewY()
+    3rd: skewX()
+    4th: scaleY()
+    5th: translateX()
+    6th: translateY()*/
+}

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    height: 100px;
+    border: 2px solid black;
+    clear: both;
+}
+
+.scnd{
+    border: 2px solid red;
+    height: 200px;
+    float: left;
+    width: 33.333%;
+}
+
+section.third{
+    border: 2px solid blue;
+    height: 220px;
+    float: left;
+    width: 50%;
+}

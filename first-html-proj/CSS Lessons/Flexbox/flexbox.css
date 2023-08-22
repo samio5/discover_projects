@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-wrap: nowrap ;
+    background-color: #1a1a1a;
+    
+    /*flex-direction:row-reverse;
+    width: 120px;*/
+
+    flex-direction:row;
+
+    /*justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-around;*/
+    justify-content: center;
+
+    height: 200px;
+    width: px;
+    
+    /*to center something at the center, use align-items:center and justify-content:center*/
+
+    /*align-items: flex-start;*/
+    align-items: center;
+}
+
+
+
+
+
+
+.container div{
+    color: white;
+    height: 100px;
+    width: 100px;
+    background-color: #464646;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin: 10px;
+}

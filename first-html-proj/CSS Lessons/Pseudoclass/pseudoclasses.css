@@ -1,0 +1,56 @@
+a:link{
+    color: rgb(7, 101, 163);
+}
+a:visited{
+    color: rgb(27, 220, 20);
+}
+
+button:hover{
+    color: black;
+    background-color: #f00b0b
+}
+
+/*active pseudo class is used to apply parameters when you click on a button for example, here, we are targetting the button when we click it. When we click the button, it changes its background color to brown and text to white. */
+
+button:active{
+    background-color: rgb(105, 28, 28);
+    color: white;
+}
+
+/*
+li:first-child{
+    background-color: rgb(106, 255, 93);
+}
+
+li:last-child{
+    background-color: rgb(106, 255, 93);
+}
+
+li:nth-child(5){
+    background-color: rgb(106, 255, 93);
+}
+
+li:nth-child(odd){
+    background-color: rgb(109, 255, 96);
+}
+
+li:nth-child(even){
+    background-color: rgb(204, 255, 199);
+}
+*/
+
+#tar>li:nth-child(3n+1){
+    
+    background-color: violet;
+    border: 1px double;
+    width: 150px;
+
+    /*
+    nth-child(an+b):-
+    a = cycle size (ex: if a = 3, the cycle goes through the multiples of 3, so 3, 6, 9 and so on.)
+    n = counter (starts at 0)
+    b = offset value (ex: if b = 1, the cycle shifts one number down, so if cycle starts from 3, then it goes from 1, 4, 7, 10 and so on.)
+    */
+
+}
+

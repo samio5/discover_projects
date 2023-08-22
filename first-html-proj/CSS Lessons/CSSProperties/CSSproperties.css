@@ -1,0 +1,157 @@
+#h1u{
+    text-decoration: underline;
+}
+
+#p1{
+    text-align: left;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 13px;
+    width: 45px;
+    text-align: center;
+    background-color: rgb(251, 255, 0);
+}
+
+#p2{
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 13px;
+    width: 65px;
+    margin: auto;
+    background-color: rgb(251, 255, 0);
+}
+
+#p3{
+    text-align: right;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 13px;
+    width: 53px;
+    margin-left: auto;
+    background-color: rgb(251, 255, 0);
+}
+
+#p4{
+    margin: 10px;
+}
+
+#coolimg{
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#div1{
+    
+    border: 3px dashed;
+    background-color:navajowhite;
+    border-radius: 15px;
+    width: 500px;
+}
+
+#h2u{
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: rgb(255, 236, 125);
+    color: rgb(0, 0, 0);
+    width: 130px;
+    text-align: center;
+    position: fixed; /* fixed in place within viewport*/
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+#h3u{
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: rgb(125, 255, 168);
+    color: rgb(0, 0, 0);
+    width: 130px;
+    text-align: center;
+    position: relative; /* relative to where it's positioned*/
+    
+    left: 11%;
+    
+}
+
+#h4u{
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: rgb(162, 152, 255);
+    color: rgb(0, 0, 0);
+    width: 130px;
+    text-align: center;
+    position: sticky; /* relative to where it's positioned*/
+    top: 10px;
+    left: 45%;
+
+}
+
+#h5u{
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: rgb(255, 152, 152);
+    color: rgb(0, 0, 0);
+    width: 130px;
+    text-align: center;
+    position: static; /*Static is the default positon for elements*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+#h6u{
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: rgb(255, 198, 152);
+    color: rgb(0, 0, 0);
+    width: 130px;
+    text-align: center;
+      */
+
+
+#box1{
+    position: relative;
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#box2{
+    
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    border: 2px dashed;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute; /*Position is relative to its positioned ancestor which is box1.
+    If box2 doesn't have an ancestor, then it will be positioned relative to the viewport (browser)*/
+    top: 50px;
+    left: 50px;
+}
+
+#p6{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*#p7{
+    text-align: center;
+    border: 4px ridge;
+    border-radius: 15px;
+    width: 00px;
+    
+    margin-right: auto;
+}*/
+
+

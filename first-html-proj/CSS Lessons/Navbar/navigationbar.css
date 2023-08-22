@@ -1,0 +1,44 @@
+#dadbod{
+}
+
+#h1s{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+
+}
+
+#ul1{
+    list-style-type: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(34, 34, 34);
+    
+
+}
+
+
+li a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    min-width: 50px;
+
+}
+
+li a:hover{
+    background-color: rgb(17, 17, 17);
+    animation: glowanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glowanimation{
+    50%{text-shadow: 0px 0px px rgb(255, 255, 255);}
+}

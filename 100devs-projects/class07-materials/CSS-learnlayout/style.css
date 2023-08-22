@@ -1,0 +1,106 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+#main{
+    border: 5px solid green;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#simple{
+    border: 5px solid green;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#fancy{
+    border: 5px solid green;
+    margin: 20px auto;
+    width: 600px;
+    padding: 50px;
+    border-width: 20px;
+}
+
+#static{
+    border: 5px solid green;
+    margin: 20px auto;
+    width: 600px;
+    position: static;
+}
+
+#rel1{
+    border: 5px solid green;
+    margin: 20px auto;
+    width: 600px;
+    position: relative;
+}
+#rel2{
+    border: 5px solid green;
+    margin: 20px auto;
+    width: 600px;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    background-color: wheat;
+}
+#fixed{
+    border: 5px solid green;
+    margin: 20px auto;
+    width: 150px;
+    position: fixed;
+    top: ;
+    left: ;
+    bottom: 0px;
+    right: 0;
+    background-color: wheat;
+}
+
+#rel{
+    border: 5px solid green;
+    margin: 20px auto;
+    width: 600px;
+    height: 250px;
+    position: relative;
+}
+#ab{
+    border: 5px solid purple;
+    margin: 20px auto;
+    width: 300px;
+    right: 0px;
+    position: absolute;
+    background-color: wheat;
+}
+
+.container{
+    border: 2px solid blue;
+    position: relative;
+    
+}
+
+.list{
+    border: 2px solid red;
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+section{
+    border: 2px solid yellow;
+    margin-left: 200px;
+    padding: 10px;
+}
+body{
+    margin-bottom: 120px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: gainsboro;
+    width: 100%;
+    border: 2px solid rgb(89, 255, 55);
+    height: 50px;
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+#h1{
+    border-style: double;
+    border-width: 6px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    
+}
+
+#p1{
+    border-style: solid;
+    width: 500px;
+    padding: 20px;
+    margin: 50px;
+}
+
+#p2{
+    border-style:groove;
+    margin-top: 25px;
+    margin-right: 65px;
+    margin-bottom: 77px;
+    margin-left: 2em;
+    width: 255px;
+    padding: 25px;
+    /*short form of writing the code above is the following*/
+    margin:25px 65px 77px 2em
+}
+
+#p3{
+    border-style:groove;
+    width: 255px;
+    padding: 25px;
+    margin: 10%;
+
+}
+
+#p4{
+    border-style:groove;
+    width: 255px;
+    padding: 25px;
+    margin-left: auto;
+}
+
+#p5{
+    border-style:groove;
+    width: 255px;
+    padding: 25px;
+    margin-right: auto;
+}
+
+#p6{
+    border-style:groove;
+    width: 255px;
+    padding: 25px;
+    margin: auto;
+}
+
+#fade{
+    margin-top: -18px;
+    margin-left: -6px;
+}

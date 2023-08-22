@@ -1,0 +1,27 @@
+#green{
+    text-align: center;
+    text-decoration: underline;
+    background:linear-gradient(green,blue,rgb(185, 1, 41))
+    
+}
+
+#ae{
+    
+    background-image: url(Backgrounds/grace.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/*#backhtml{
+    background-image: url(Backgrounds/grace.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

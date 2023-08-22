@@ -1,0 +1,54 @@
+/* 1 
+h1{
+    font-size: 30px;
+    padding-left: 30px;
+    border: 3px solid red;
+}
+h2{
+    font-size: 25px;
+    padding: 50px 0;
+    border: 20px solid gold;
+    margin: 20px 0;
+}
+span{
+    border: 2px solid black;
+    padding: 5px;
+    color: blue;
+}
+section{
+    width: 25%;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid purple;
+}
+*/
+
+/* Please make the h1 30px, with a little padding on the left, and thin red border */
+html > head + body > h1 {
+    font-size: 50px;
+    padding: 0px 0px 0px 50px;
+    border: 2px solid red;
+}
+
+/* Please make the h2 25px, with padding on top/bottom, a thick gold border, and margin on the top/bottom */
+html > head + body > h1 + h2 {
+    font-size: 25px;
+    padding: 50px 0;
+    border: 10px solid gold;
+    margin: 50px 0;
+}
+
+/* Please make the spans have a thin black border, a little padding, and blue */
+span{
+    color: blue;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+/* Please make the section 25% width, 200px tall, centered, and with a thin purple border */
+html > head + body section {
+    width: 25%;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid purple;
+}

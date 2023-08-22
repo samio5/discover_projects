@@ -1,0 +1,31 @@
+/* 1 
+#rugratsWildThornberrysBestCrossOverAllTime > .extraExtraReadAllAboutIt > h3{
+    color: blue;
+}
+
+#changedIt h2{
+    color: red;
+}
+
+html head + body header.top + section#rugratsWildThornberrysBestCrossOverAllTime h2{
+    color: gold !important;
+}
+*/
+
+/* Please make "This is an ad..." blue, but make sure it is specific enough that you could add other h3's somewhere else in the document. */
+html head + body header.top + section#rugratsWildThornberrysBestCrossOverAllTime h2+ aside.extraExtraReadAllAboutIt > h3{
+    color: blue;
+}
+/* Please make "I like turtles." red */
+html head + body header.top + section#rugratsWildThornberrysBestCrossOverAllTime + section#changedIt > h2 {
+    color: red;
+}
+/* Please select "Hello, world!" with the highest level of specificity possible*/
+html head + body header.top + section#rugratsWildThornberrysBestCrossOverAllTime > h2{
+    color: rgb(36, 165, 19) !important;
+}
+/* Please select "Let's get down to business..." with the highest level of specificity possible */
+html head + body header.top + section#rugratsWildThornberrysBestCrossOverAllTime + section#changedIt p.passTheRemote.turtles {
+    color: rgb(11, 138, 197) !important;
+    font-weight: bold;
+}
