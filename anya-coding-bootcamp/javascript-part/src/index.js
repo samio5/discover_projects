@@ -722,4 +722,16 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
 
+    //^Function, Function expression, Arrow function:
+
+    const body = document.querySelector("body")
+
+    function speak() {
+        console.log("Greetings!")
+    }
+
+    body.addEventListener("click", speak)
+
+    //^ Another way to write it:
+
 })
