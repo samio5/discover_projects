@@ -724,14 +724,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //^Function, Function expression, Arrow function:
 
-    const body = document.querySelector("body")
+    /* const body = document.querySelector("body")
 
     function speak() {
         console.log("Greetings!")
     }
 
-    body.addEventListener("click", speak)
+    body.addEventListener("click", speak) */
 
-    //^ Another way to write it:
+    //^ Another way to write a function is using a function expression:
 
+    /* const body = document.querySelector("body")
+
+    const speak = function() {
+        console.log("Greetings!")
+    }
+
+    body.addEventListener("click", speak) */
+
+    //^ Another way to write a function is using an Arrow expression:
+
+    /* const body = document.querySelector("body")
+
+    const speak = () => {
+        console.log("Greetings!")
+    }
+
+    body.addEventListener("click", speak) */
+
+
+    //!CHAPTER: WHILE LOOPS:
+
+    let i = 0
+
+    while (i < 100) {
+        console.log( i + "beers on the wall")
+    }
 })
