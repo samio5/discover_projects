@@ -753,11 +753,30 @@ document.addEventListener('DOMContentLoaded', () => {
     body.addEventListener("click", speak) */
 
 
-    //!CHAPTER: WHILE LOOPS:
+    //! CHAPTER: WHILE LOOPS:
 
-    let i = 0
+    //^ While loop lets you run a block of code as long as the statement is true until the statement is not true anymore.
+
+    /* let i = 0
 
     while (i < 100) {
         console.log( i + "beers on the wall")
-    }
+        i++
+    } */
+
+    //! CHAPTER: BUILT-IN OBJECTS:
+
+    /**
+     * ^ Examples: Date, Math, String, Array, Object etc. Each of them have their own Methods and Properties.
+     * 
+     * ^ .length = it is a javascript property. it can be used on Strings or Arrays.
+     */
+
+    /* const word = "banana"
+    console.log(word.length) */
+
+    /* const fruit = ["banana", "apple", "pear"]
+    console.log(fruit.length) */
+
+    const balls = document.querySelectorAll(".ball      ")
 })
