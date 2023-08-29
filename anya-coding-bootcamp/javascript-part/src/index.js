@@ -804,15 +804,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log(newArray) */
 
-    //! CHAPTER: .JOIN METHOD
+    //! CHAPTER: .JOIN METHOD:
 
     //* the .join javascript method creates and returns a new string by concatinating all of the elements in an array
 
-    const textDisplay = document.querySelector(".text")
+    /* const textDisplay = document.querySelector(".text")
 
     const emotions = ["Happy", "Sad", "Confident"]
     // console.log(emotions.join(""))
     const newString = emotions.join("")
 
-    textDisplay.innerHTML = newString
+    textDisplay.innerHTML = newString */
+
+    //! CHAPTER: .POP METHOD:
+
+    //* the .pop javascript method removes the last element from any array and returns that element
 })
