@@ -732,7 +732,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     body.addEventListener("click", speak) */
 
-    //^ Another way to write a function is using a function expression:
+    //* Another way to write a function is using a function expression:
 
     /* const body = document.querySelector("body")
 
@@ -742,7 +742,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     body.addEventListener("click", speak) */
 
-    //^ Another way to write a function is using an Arrow expression:
+    //* Another way to write a function is using an Arrow expression:
 
     /* const body = document.querySelector("body")
 
@@ -755,7 +755,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //! CHAPTER: WHILE LOOPS:
 
-    //^ While loop lets you run a block of code as long as the statement is true until the statement is not true anymore.
+    //* While loop lets you run a block of code as long as the statement is true until the statement is not true anymore.
 
     /* let i = 0
 
@@ -778,5 +778,41 @@ document.addEventListener('DOMContentLoaded', () => {
     /* const fruit = ["banana", "apple", "pear"]
     console.log(fruit.length) */
 
-    const balls = document.querySelectorAll(".ball      ")
+    /* const balls = document.querySelectorAll(".ball")
+
+    console.log(balls.length) */
+
+    //! CHAPTER: .CONCAT method
+
+    //* the .concat method is used to merge two or more things, example here is merging arrays and strings together.
+
+    //^ using STRINGS:
+    /* const string = "Say Cheese, "
+    const string2 = "Ania"
+
+    console.log(string.concat(string2)) */
+
+    //^ using ARRAYS:
+    //* this method does not change the existing arrays, it returns a NEW array.
+
+    /* const array1 =    [1,2,3,4]
+    const array2 =    [5,6,7,8]
+    const array3 = [9,10,11,12]
+    
+
+    const newArray = array1.concat(array2, array3)
+
+    console.log(newArray) */
+
+    //! CHAPTER: .JOIN METHOD
+
+    //* the .join javascript method creates and returns a new string by concatinating all of the elements in an array
+
+    const textDisplay = document.querySelector(".text")
+
+    const emotions = ["Happy", "Sad", "Confident"]
+    // console.log(emotions.join(""))
+    const newString = emotions.join("")
+
+    textDisplay.innerHTML = newString
 })
