@@ -57,6 +57,7 @@
 
 body {
     background-color: lightseagreen;
+    font-family: JetBrains Mono;
 }
 
 /*! .pop exercise */
@@ -68,7 +69,6 @@ body {
     border-radius: 10px;
     padding: 20px;
     border: solid 20px rgb(184, 83, 83);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-size: 14px;
     text-align: center;

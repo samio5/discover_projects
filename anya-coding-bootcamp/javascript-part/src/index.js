@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     //!CHAPTER: VARIABLES--------------------------------
-    
+
     //*numeric
     // var x = 1
 
@@ -98,15 +98,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     findX() */
-    
+
     //^CONST & VAR DIFFERENCE
 
     //*Const: Works in the same way as Let does, in that you can not access it if it's defined inside a function/block statement, however its also constant as the const name would indicate. Once you have defined it, you can not overwrite it later on.
 
     // const count = [1,2,3,4,5]
-    
+
     // count = [1,2,3,8]
-    
+
     // console.log(count)
 
     //^MORE EXAMPLES OF VAR, LET AND CONST
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function increment(){
         return count = count + 1
     }
-    
+
     console.log(increment())
     */
 
@@ -136,14 +136,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
     * *IF STATEMENTS EXECUTES A STATEMENT IF THE SPECIFIED CONDITION IS TRUTHY, IF THE CONDITION IS FALSEY, ANOTHER STATEMENT IS EXECUTED.
-    * 
-    * 
+    *
+    *
     * ^EXPLANATION OF FALSEY:
     * *A FALSEY VALUE IS A VALUE THAT IS CONSIDERED FALSE IN A BOOLEAN CONTEXT IN CONDITIONALS AND LOOPS. THESE VALUES ARE:-
     * *false, 0, -0, 0n, "", null, undefined and nan (not a number).
     * *0n(name: big int. when used as a boolean, it is a built-in object used to represent whole numbers larger than 2 to the power of 53.)
-    * 
-    * 
+    *
+    *
     * ^EXPLANATION OF TRUTHY:
     * *IT IS ANYTHING UNLESS ITS A FALSEY, NON ZERO AND NEGATIVE NUMBERS LIKE 1,2,3,4,5 ETC.
     **/
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } */
 
     //!++++++++++++++++++++++++++++++++
-    
+
     /* const time = 9
 
     if (time < 12) {
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
      * *3. DECREMENT
      * *4. UNARY NEGATION
      * *5. UNARY PLUS
-     * *6. EXPONENTIAL OPERATORz 
+     * *6. EXPONENTIAL OPERATORz
      */
 
     //*1. MODULUS: it shows the remainder in a division process.
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log(z ** 2)         //*using ** we are putting the base '4' in the power of 2 which is 16. */
 
-    
+
     //^ASSIGNMENT OPERATORS: they are used to assign a value to its left operand based on the value of the right operand.
 
     /**
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
     /* x = 4
 
     console.log(x) */
-    
+
     //*2. ADDITION ASSIGNMENT:
     /* let x = 6
 
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     //^COMPARISON OPERATORS: they are used to operate its operand and returns a logical value based on whether the comparison is true. The operands can be string, numerical, logical and object values. They operators below return a boolean response, ie true or false.
-    
+
     /**
      * *1. EQUAL
      * *2. NOT EQUAL
@@ -374,11 +374,11 @@ document.addEventListener('DOMContentLoaded', () => {
     } */
 
     //^TERNARY OPERATORS: it is another way of writing an if statement. it allows you to simplify a conditional logic into a one liner.
-    
+
     //*The following is an if statement
 
     /* let isGameOver = false
-    
+
     if (isGameOver == true) {
         console.log('Sorry you have lost.')
     } else {
@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', () => {
     /**
      * ?Start with the number one, and count upwards. If any number is divisible by three, it is replaced by the word fizz and any number divisible by five by the word buzz. Numbers divisible by 15 become fizz buzz.
      */
-    
+
     /* let count = 2
 
     if (count % 15 === 0) {
@@ -434,13 +434,13 @@ document.addEventListener('DOMContentLoaded', () => {
     /* for(let i = 0; i < 10; i++){
         console.log(i)
     } */
-    
+
     //!++++++++++++++++++++++++++++++++
 
     /* for(let i = 0; i < 10; i++){
         console.log(i + 1 + ' beers on the counter')
     } */
-    
+
     //!++++++++++++++++++++++++++++++++
 
     //*Lets use if statements with for loops.
@@ -476,7 +476,7 @@ document.addEventListener('DOMContentLoaded', () => {
     /**
      * ? Create a for loop which starts with the number one, and count upwards. If any number is divisible by three, it is replaced by the word fizz and any number divisible by five by the word buzz. Numbers divisible by 15 become fizz buzz.
      */
-    
+
 
     /* for(let i = 1; i < 101; i++){
         if(i % 15 === 0){
@@ -507,7 +507,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     //!-----------------------------------------------------------------------------------------------------------
-    
+
 
 
     //!CHAPTER: ARRAYS
@@ -636,7 +636,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     } */
 
-    
+
     //!CHAPTER: FUNCTIONS
 
     //*A function is a set of statements that performs a task or calculates a value when it is invoked (called).
@@ -685,7 +685,7 @@ document.addEventListener('DOMContentLoaded', () => {
     sendReminder('Ross', '1 pm') */
 
     //!++++++++++++++++++++++++++++++++
-    
+
     /* let name = 'Ania'
     let count = 1
 
@@ -715,11 +715,11 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(count)
         bob.style.left = count + 'px';
     }
-    
+
     bob.addEventListener('click', moveBob) */
 
     //!-----------------------------------------------------------------------------------------------------------
-    
+
 
 
     //^Function, Function expression, Arrow function:
@@ -768,7 +768,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
      * ^ Examples: Date, Math, String, Array, Object etc. Each of them have their own Methods and Properties.
-     * 
+     *
      * ^ .length = it is a javascript property. it can be used on Strings or Arrays.
      */
 
@@ -782,7 +782,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log(balls.length) */
 
-    //! CHAPTER: .CONCAT method
+    //! CHAPTER: .CONCAT() method
 
     //* the .concat method is used to merge two or more things, example here is merging arrays and strings together.
 
@@ -798,13 +798,13 @@ document.addEventListener('DOMContentLoaded', () => {
     /* const array1 =    [1,2,3,4]
     const array2 =    [5,6,7,8]
     const array3 = [9,10,11,12]
-    
+
 
     const newArray = array1.concat(array2, array3)
 
     console.log(newArray) */
 
-    //! CHAPTER: .JOIN METHOD:
+    //! CHAPTER: .JOIN() METHOD:
 
     //* the .join javascript method creates and returns a new string by concatinating all of the elements in an array
 
@@ -816,7 +816,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     textDisplay.innerHTML = newString */
 
-    //! CHAPTER: .POP METHOD:
+    //! CHAPTER: .POP() METHOD:
 
     //* the .pop javascript method removes the last element from any array and returns that element
 
@@ -854,7 +854,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     display.innerHTML = movies */
 
-    //! CHAPTER: .SHIFT METHOD
+    //! CHAPTER: .SHIFT() METHOD
 
     //* shift is the opposite of .pop where in it removes the first element of an array and returns the removed element.
 
@@ -871,14 +871,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     display.innerHTML = count */
 
-    //! CHAPTER: .UNSHIFT METHOD
+    //! CHAPTER: .UNSHIFT() METHOD
 
     //* .unshift is a method that adds one of more elements to the beginning of an array and returns a new array
 
-    //* this will change the original array 
+    //* this will change the original array
 
     /* const display = document.querySelector(".display")
-    
+
     const games = ["Layers of Fear"]
 
     // const num = ["1,2,3,4"]
@@ -890,11 +890,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
     display.innerHTML = games */
 
-    //! CHAPTER: .PUSH METHOD
+    //! CHAPTER: .PUSH() METHOD
 
     //* .push is a javascript method that adds one of more elements to the end of an array and returns the new length of the array
 
+    //* it changes the original array
+
+    /* const display = document.querySelector(".display")
+
+    const actors = ["Brad Pitt"]
+
+    actors.push("Rhianna", "James")
+
+    display.innerHTML = actors */
+
+    //! CHAPTER: .SLICE() METHOD
+
+    //* slice is a javascript method that is used to remove certain parts of an array
+
+    //* it does not change the arrays, it makes new a new array.
+
     const display = document.querySelector(".display")
 
+    const artists = ["Shakira", "Snoop", "Sia", "Beyonce", "Taylor Swift"]
 
+    //* start and end are called indexes and they are numericals that would indicate the number of a particular item in an array
+    /* artists.slice(1)
+
+    console.log(artists.slice(1,2))
+
+    const maleArtists = artists.slice(1,2)
+
+    console.log(maleArtists)
+    console.log(artists)
+
+    display.innerHTML = artists */
+
+    //!++++++++++++++++++++++++++++++++
+
+    const notSArtists = artists.slice(3)
+
+    console.log(notSArtists)
 })
