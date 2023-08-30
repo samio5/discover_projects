@@ -936,10 +936,12 @@ document.addEventListener('DOMContentLoaded', () => {
     //!++++++++++++++++++++++++++++++++
 
     //* here we are displaying the first three items in our display
-    const sArtists = artists.slice(0,3)
+    /* const sArtists = artists.slice(0,3)
 
     console.log(sArtists)
 
-    display.innerHTML = sArtists
+    display.innerHTML = sArtists */
+
+    //! CHAPTER: .SPLICE() METHOD
 
 })
