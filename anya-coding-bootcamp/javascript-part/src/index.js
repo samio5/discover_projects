@@ -912,9 +912,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const display = document.querySelector(".display")
 
-    const artists = ["Shakira", "Snoop", "Sia", "Beyonce", "Taylor Swift"]
+    /* const artists = ["Shakira", "Snoop", "Sia", "Beyonce", "Taylor Swift"]
 
-    display.innerHTML = artists
+    display.innerHTML = artists */
 
     //* start and end are called indexes and they are numericals that would indicate the number of a particular item in an array
     /* artists.slice(1)
@@ -943,5 +943,60 @@ document.addEventListener('DOMContentLoaded', () => {
     display.innerHTML = sArtists */
 
     //! CHAPTER: .SPLICE() METHOD
+
+    //* .splice javascript method changes the content of an array by removing or replacing existing elements or adding new elements in its place.
+
+    /* const movies = ["Elf", "Annie", "Hero 6"]
+
+    movies.splice(1,1)
+
+    display.innerHTML = movies */
+
+    //!++++++++++++++++++++++++++++++++
+
+    //* Here we are replacing Annie with Mulan
+
+    /* const movies = ["Elf", "Annie", "Hero 6"]
+
+    movies.splice(1,1, "Mulan")
+
+    display.innerHTML = movies */
+
+    //!++++++++++++++++++++++++++++++++
+
+    /* const movies = ["Elf", "Annie", "Hero 6"]
+
+    movies.splice(2,2, "Dumb and Dumber")
+
+    display.innerHTML = movies */
+
+    //!++++++++++++++++++++++++++++++++
+
+    //* here we are adding DAMN! before Annie.
+
+    /* const movies = ["Elf", "Annie", "Hero 6"]
+
+    movies.splice(1,0, "DAMN!")
+
+    display.innerHTML = movies */
+
+    //* the syntax to understand this is the following:
+    //* let splicedArray = array.splice(start,deleteCount, replacement)
+
+
+    //! CHAPTER: .FOREACH() METHOD
+
+    //* .foreach() is a javascript method and it executes a provided function once for every array element
+
+    document.querySelectorAll(".circle")
+
+
+
+
+    
+
+
+
+
 
 })
