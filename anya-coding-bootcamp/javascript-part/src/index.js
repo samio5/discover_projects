@@ -914,6 +914,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const artists = ["Shakira", "Snoop", "Sia", "Beyonce", "Taylor Swift"]
 
+    display.innerHTML = artists
+
     //* start and end are called indexes and they are numericals that would indicate the number of a particular item in an array
     /* artists.slice(1)
 
@@ -922,13 +924,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const maleArtists = artists.slice(1,2)
 
     console.log(maleArtists)
-    console.log(artists)
-
-    display.innerHTML = artists */
+    console.log(artists) */
 
     //!++++++++++++++++++++++++++++++++
 
-    const notSArtists = artists.slice(3)
+    //* here we are removing the last two items in our array
+    /* const notSArtists = artists.slice(3)
 
-    console.log(notSArtists)
+    console.log(notSArtists) */
+
+    //!++++++++++++++++++++++++++++++++
+
+    //* here we are displaying the first three items in our display
+    const sArtists = artists.slice(0,3)
+
+    console.log(sArtists)
+
+    display.innerHTML = sArtists
+
 })
