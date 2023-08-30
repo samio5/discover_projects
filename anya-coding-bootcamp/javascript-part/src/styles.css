@@ -56,11 +56,28 @@
 } */
 
 body {
-    font-family: Cascadia Code;
-    font-weight: bolder;
-    font-size: 100px;
     background-color: lightseagreen;
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
+}
+
+/*! .pop exercise */
+
+.display {
+    background-color: lightcoral;
+    height: 60px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 20px rgb(184, 83, 83);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.top {
+    height: 40px;
+    width: 200px;
+    margin-left: 130px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }

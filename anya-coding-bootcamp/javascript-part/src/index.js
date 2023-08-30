@@ -819,4 +819,82 @@ document.addEventListener('DOMContentLoaded', () => {
     //! CHAPTER: .POP METHOD:
 
     //* the .pop javascript method removes the last element from any array and returns that element
+
+    //* .pop changes the length of the array
+
+    /* const display = document.querySelector(".display")
+
+    const movies = ["Argo", "Aliens", "Fears"]
+    console.log(movies)
+
+    movies.pop()
+
+    display.innerHTML = movies */
+
+    //!++++++++++++++++++++++++++++++++
+
+    /* const display = document.querySelector(".display")
+
+    const movies = [
+        {
+            name: "Argo",
+            length: "136"
+        },
+        {
+            name: "Aliens",
+            length: "125"
+        },
+        {
+            name: "Layers of Fear",
+            length: "190"
+        },
+    ]
+    console.log(movies)
+    movies.pop()
+
+    display.innerHTML = movies */
+
+    //! CHAPTER: .SHIFT METHOD
+
+    //* shift is the opposite of .pop where in it removes the first element of an array and returns the removed element.
+
+    //* it changes the length of an array
+
+/*     const display = document.querySelector(".display")
+
+    const movies = ["Matter", "Wolf", "Jumanji"]
+    const count = [1,2,3,4,5]
+
+    console.log(count)
+    movies.shift()
+    count.shift()
+
+    display.innerHTML = count */
+
+    //! CHAPTER: .UNSHIFT METHOD
+
+    //* .unshift is a method that adds one of more elements to the beginning of an array and returns a new array
+
+    //* this will change the original array 
+
+    /* const display = document.querySelector(".display")
+    
+    const games = ["Layers of Fear"]
+
+    // const num = ["1,2,3,4"]
+
+    // games.unshift(num)
+    games.unshift("Wicked", "Cats")
+
+    console.log(games)
+
+    display.innerHTML = games */
+
+    //! CHAPTER: .PUSH METHOD
+
+    //* .push is a javascript method that adds one of more elements to the end of an array and returns the new length of the array
+
+    const display = document.querySelector(".display")
+
+
 })
