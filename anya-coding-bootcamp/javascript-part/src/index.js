@@ -1002,12 +1002,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //!++++++++++++++++++++++++++++++++
 
-    const scores = [78, 90, 54, 22, 44, 11, 56, 44, 25]
+    /* const scores = [78, 90, 54, 22, 44, 11, 56, 44, 25]
 
     scores.forEach(score => {
         console.log(score + 2 + "a")
         console.log(score + 10)
             }
-        )
+        ) */
 
+    //! CHAPTER: .SOME() METHOD
+
+    
 })
