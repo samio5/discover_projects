@@ -988,15 +988,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //* .foreach() is a javascript method and it executes a provided function once for every array element
 
-    document.querySelectorAll(".circle")
+    /* const circles = document.querySelectorAll(".circle")
 
+    console.log(circles)
 
+    circles.forEach(circle => circle.style.backgroundColor = "White") */
 
+    //!++++++++++++++++++++++++++++++++
 
-    
+    /* const names = ["Anya", "James", "Nani"]
 
+    names.forEach(name => console.log(name)) */
 
+    //!++++++++++++++++++++++++++++++++
 
+    const scores = [78, 90, 54, 22, 44, 11, 56, 44, 25]
 
+    scores.forEach(score => {
+        console.log(score + 2 + "a")
+        console.log(score + 10)
+            }
+        )
 
 })
