@@ -983,10 +983,10 @@ document.addEventListener('DOMContentLoaded', () => {
     //* the syntax to understand this is the following:
     //* let splicedArray = array.splice(start,deleteCount, replacement)
 
-
     //! CHAPTER: .FOREACH() METHOD
 
     //* .foreach() is a javascript method and it executes a provided function once for every array element
+    //* .foreach() is similar to a loop
 
     /* const circles = document.querySelectorAll(".circle")
 
