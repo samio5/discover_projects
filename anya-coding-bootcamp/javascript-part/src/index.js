@@ -910,7 +910,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //* it does not change the arrays, it makes new a new array.
 
-    const display = document.querySelector(".display")
+    // const display = document.querySelector(".display")
 
     /* const artists = ["Shakira", "Snoop", "Sia", "Beyonce", "Taylor Swift"]
 
@@ -981,7 +981,7 @@ document.addEventListener('DOMContentLoaded', () => {
     display.innerHTML = movies */
 
     //* the syntax to understand this is the following:
-    //* let splicedArray = array.splice(start,deleteCount, replacement)
+    // let splicedArray = array.splice(start,deleteCount, replacement)
 
     //! CHAPTER: .FOREACH() METHOD
 
@@ -1011,6 +1011,66 @@ document.addEventListener('DOMContentLoaded', () => {
         ) */
 
     //! CHAPTER: .SOME() METHOD
-
     
+    //* the .some() is a javascript method that tests whether at least one element in an array passes the test implemented by provided function
+    
+    /* const scores = [23, 36, 26, 59]
+
+    console.log(scores.some(score => score > 50)) */
+
+    //!++++++++++++++++++++++++++++++++
+
+    /* const countries = ["Afganistan", "Poland", "Honduras"]
+
+    console.log(countries.some(country => country === "Poland"))
+    console.log(countries.some(country => country === "Russia")) */
+    
+    //!++++++++++++++++++++++++++++++++
+
+    //* Array.from makes the an array out of the nodelist
+    
+    /* const hearts = Array.from(document.querySelectorAll(".heart"))
+
+    console.log(hearts) */
+
+    //* hasChildNodes checks for a child element in my heart div
+    
+    /* const isHeartBroken = hearts.some(heart => heart.hasChildNodes())
+
+    console.log(isHeartBroken) */
+
+    //! CHAPTER: .MAP() METHOD
+
+    //* the .map() method is similar to a .foreach() method where it performs a function for every array element however it creates a new array.
+
+    //* syntax:
+    // const newArray = values.map(value => value)
+
+    //!++++++++++++++++++++++++++++++++
+
+    /* const ages2020 = [21, 45, 56, 32, 45, 2]
+
+    const ages2023 = ages2020.map(age => age + 3)
+
+    console.log(ages2023) */
+
+    //!++++++++++++++++++++++++++++++++
+
+    /* const housemates2020 = [
+        {
+            name: "Ahmad",
+            age:  24
+        },
+        {
+            name: "James",
+            age: 21
+        },
+        {
+            name: "Helen",
+            age: 28
+        }
+    ]
+
+    const housemates2023 = housemates2020.map(housemate => housemate.age + 3)
+    console.log(housemates2023) */
 })
