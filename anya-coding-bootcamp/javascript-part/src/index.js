@@ -427,7 +427,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    //!CHAPTER: FOR LOOPS
+    //!CHAPTER: FOR LOOPS--------------------------------
 
     //^For Loops: it is a control flow statement used to execute a block of code as many times as we want.'
 
@@ -510,7 +510,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    //!CHAPTER: ARRAYS
+    //!CHAPTER: ARRAYS--------------------------------
 
     //^ARRAYS: an array is an object that can store multiple values at once.
     //^Examples:
@@ -551,7 +551,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     } */
 
-    //!CHAPTER: OBJECTS
+    //!CHAPTER: OBJECTS--------------------------------
 
     //^OBJECTS; Objects are the main unit in object-oriented programming. they are core data structures that comprise properties and methods. While methods are functions/actions an object can perform, and properties are characteristics of an object such as its name and value. Like in real life, a car is an object. A car has properties like weight and color, and methods like start and stop. Properties like car.name = Fiat, car.model = 500, car.weight = 850kg, car.color = white. And methods like car.start(), car.drive(), car.brake(), car.stop(). All cars have the same properties, but the property values differ from car to car. All cars have the same methods, but the methods are performed at different times.
 
@@ -572,7 +572,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(user.lastName)
     console.log(user.pets) */
 
-    //!CHAPTER: OBJECTS IN ARRAYS
+    //!CHAPTER: OBJECTS IN ARRAYS--------------------------------
 
     /* const users = [
         {
@@ -637,7 +637,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } */
 
 
-    //!CHAPTER: FUNCTIONS
+    //!CHAPTER: FUNCTIONS--------------------------------
 
     //*A function is a set of statements that performs a task or calculates a value when it is invoked (called).
 
@@ -753,7 +753,7 @@ document.addEventListener('DOMContentLoaded', () => {
     body.addEventListener("click", speak) */
 
 
-    //! CHAPTER: WHILE LOOPS:
+    //! CHAPTER: WHILE LOOPS--------------------------------
 
     //* While loop lets you run a block of code as long as the statement is true until the statement is not true anymore.
 
@@ -764,7 +764,7 @@ document.addEventListener('DOMContentLoaded', () => {
         i++
     } */
 
-    //! CHAPTER: BUILT-IN OBJECTS:
+    //! CHAPTER: BUILT-IN OBJECTS--------------------------------
 
     /**
      * ^ Examples: Date, Math, String, Array, Object etc. Each of them have their own Methods and Properties.
@@ -782,7 +782,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log(balls.length) */
 
-    //! CHAPTER: .CONCAT() method
+    //! CHAPTER: .CONCAT() method--------------------------------
 
     //* the .concat method is used to merge two or more things, example here is merging arrays and strings together.
 
@@ -804,7 +804,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log(newArray) */
 
-    //! CHAPTER: .JOIN() METHOD:
+    //! CHAPTER: .JOIN() METHOD--------------------------------
 
     //* the .join javascript method creates and returns a new string by concatinating all of the elements in an array
 
@@ -816,7 +816,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     textDisplay.innerHTML = newString */
 
-    //! CHAPTER: .POP() METHOD:
+    //! CHAPTER: .POP() METHOD--------------------------------
 
     //* the .pop javascript method removes the last element from any array and returns that element
 
@@ -854,7 +854,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     display.innerHTML = movies */
 
-    //! CHAPTER: .SHIFT() METHOD
+    //! CHAPTER: .SHIFT() METHOD--------------------------------
 
     //* shift is the opposite of .pop where in it removes the first element of an array and returns the removed element.
 
@@ -871,7 +871,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     display.innerHTML = count */
 
-    //! CHAPTER: .UNSHIFT() METHOD
+    //! CHAPTER: .UNSHIFT() METHOD--------------------------------
 
     //* .unshift is a method that adds one of more elements to the beginning of an array and returns a new array
 
@@ -890,7 +890,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     display.innerHTML = games */
 
-    //! CHAPTER: .PUSH() METHOD
+    //! CHAPTER: .PUSH() METHOD--------------------------------
 
     //* .push is a javascript method that adds one of more elements to the end of an array and returns the new length of the array
 
@@ -904,7 +904,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     display.innerHTML = actors */
 
-    //! CHAPTER: .SLICE() METHOD
+    //! CHAPTER: .SLICE() METHOD--------------------------------
 
     //* slice is a javascript method that is used to remove certain parts of an array
 
@@ -942,7 +942,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     display.innerHTML = sArtists */
 
-    //! CHAPTER: .SPLICE() METHOD
+    //! CHAPTER: .SPLICE() METHOD--------------------------------
 
     //* .splice javascript method changes the content of an array by removing or replacing existing elements or adding new elements in its place.
 
@@ -983,7 +983,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //* the syntax to understand this is the following:
     // let splicedArray = array.splice(start,deleteCount, replacement)
 
-    //! CHAPTER: .FOREACH() METHOD
+    //! CHAPTER: .FOREACH() METHOD--------------------------------
 
     //* .foreach() is a javascript method and it executes a provided function once for every array element
     //* .foreach() is similar to a loop
@@ -1010,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         ) */
 
-    //! CHAPTER: .SOME() METHOD
+    //! CHAPTER: .SOME() METHOD--------------------------------
     
     //* the .some() is a javascript method that tests whether at least one element in an array passes the test implemented by provided function
     
@@ -1027,7 +1027,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     //!++++++++++++++++++++++++++++++++
 
-    //* Array.from makes the an array out of the nodelist
+    //* Array.from makes the array out of the nodelist
     
     /* const hearts = Array.from(document.querySelectorAll(".heart"))
 
@@ -1039,7 +1039,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log(isHeartBroken) */
 
-    //! CHAPTER: .MAP() METHOD
+    //! CHAPTER: .MAP() METHOD--------------------------------
 
     //* the .map() method is similar to a .foreach() method where it performs a function for every array element however it creates a new array.
 
@@ -1073,4 +1073,230 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const housemates2023 = housemates2020.map(housemate => housemate.age + 3)
     console.log(housemates2023) */
+
+    //! CHAPTER: .FLITER() METHOD--------------------------------
+
+    //* Filter method is used for filtering out. It creates a new array with all the elements that pass the test implemented by the provided function
+
+    /* const shows = ["Lupin", "Cobra Kai", "24", "Mr. Robot"]
+
+    const displayShows = shows.filter(word => word.length <= 5) */
+
+    // const box = document.querySelector(".box")
+
+    /* box.innerHTML = displayShows
+
+    console.log(displayShows) */
+
+    //!++++++++++++++++++++++++++++++++
+
+    /* const shows = [
+        {
+            name: "Lupin",
+            series: 1,
+            episodes: 5
+        },
+        {
+            name: "Cobra Kai",
+            series: 3,
+            episodes: 50
+        },
+        {
+            name: "24",
+            series: 3,
+            episodes: 25
+        },
+        {
+            name: "Mr. Robot",
+            series: 5,
+            episodes: 79
+        }
+    ]
+
+    //* now I want to filter out shows that have over 2 series in the making
+
+    const twoSeriesShows = shows.filter(show => show.series > 2)
+    
+    //*? how can I display the names of the shows in our index.html? now it just shows [object Object],[object Object],[object Object].
+    
+    box.innerHTML = twoSeriesShows
+
+    console.log(twoSeriesShows) */
+
+    //! CHAPTER: .REDUCE() METHOD--------------------------------
+
+    //* the reduce javascript method executes a reduce of function on each element of the array resulting in a single output value. meaning we are adding an array of numbers together.
+
+    // const scores = [52, 25, 66, 77, 22]
+
+    //* syntax:
+    /* scores.reduce((accumulator, currentValue) => accumulator + currentValue)
+
+    const total = scores.reduce((accumulator, currentValue) => accumulator + currentValue)
+
+    console.log(total) */
+
+    //!++++++++++++++++++++++++++++++++
+
+    /* const scores = [34, 56, 24, 31]
+
+    const totalScore = scores.reduce((scoreAddition, score) => scoreAddition + score)
+
+    console.log(totalScore) */
+
+    //! CHAPTER: .EVERY() METHOD--------------------------------
+
+    //* the every javascript method tests whether all the elements in an array pass the test implemented by the provided function, it returns a boolean value.
+    //* if everything in our array matches a rule, return true.
+
+    /* const testResults = [45, 34, 76, 89, 45, 65, 67]
+
+    const classPassed = testResults.every(result => result > 30)
+
+    console.log(classPassed) */
+
+    //!++++++++++++++++++++++++++++++++
+
+    /* const animals = ["cat", "rat", "dog", "mouse"]
+
+    const isThreeLetterAnimals = animals.every(animal => animal.length === 3)
+
+    console.log(isThreeLetterAnimals) */
+
+    //! CHAPTER: .SPLIT() METHOD--------------------------------
+
+    //* the split javascript method divides a string into an ordered list of sub-strings and it puts these sub-strings into an array and returns that array. The division is done by a pattern where the pattern is provided as the first parameter in the method's call.
+
+    /* const sentence = "I will have what she is having."
+
+    const words = sentence.split(" ")
+    const letters = sentence.split("")
+    const fullSentence = sentence.split()
+    
+    console.log(words)
+    console.log(words[3])
+
+    console.log(letters)
+    console.log(letters[24])
+    
+    console.log(fullSentence)
+    console.log(fullSentence[4]) */
+
+    //!++++++++++++++++++++++++++++++++
+    
+    //* now get the third word for the sentence using code.
+
+    /* const sentence = "Common baby light my fire."
+
+    const words = sentence.split(" ")
+    
+    const word = words[2]
+
+    console.log(word) */
+
+
+    //!-----------------------------------------------------------------------------------------------------------
+
+
+
+    //! TIME FOR ARRAY WORK! (hard)
+
+    /**
+     * ? Q) Using "map", write the function that convert fahrenheit to celcius.
+     * 
+     * ? eg: getCelcius([23, 140, 212, 41]) => [-5, 60, 100, 5]
+     * 
+     * * celcius to  fahrenheit = multiply celcius by 1.8 (or 9/5) and add 32
+     * 
+     * * fahrenheit to celcius = subtract fahrenheit by 32 and multiply by 5/9
+     */
+
+    /* let fahrenheitNum = [23, 140, 212, 41]
+
+    function getCelcius() {
+        return fahrenheitNum = fahrenheitNum.map(fahrenheit => (fahrenheit - 32) * 5 / 9)
+    }
+
+    let result = getCelcius()
+    console.log(result)
+    //or
+    console.log(getCelcius()) */
+
+    //!                OR:
+
+    /* const fahrenheit = [23, 140, 212, 41]
+    let celciusArray
+
+    function getCelcius() {
+        celciusArray = fahrenheit.map(value => (value - 32) * 5 / 9)
+    }
+
+    getCelcius()
+    console.log(celciusArray) */
+
+    
+    /**
+     * ? using "some", write a function that checks an array for a "falsey" value.
+     * 
+     * ? eg: checkForFalsey([11, NaN, [], "Angels"]) => true
+     * 
+     */
+
+    /* let values = [11, NaN, [], "Angels"]
+
+    function checkForFalsey() {
+        return values.some(value => !value)
+    }
+
+    console.log(checkForFalsey()) */
+
+    /**
+     * ? using "reduce", write a function that will return the total number of characters in an array of strings.
+     * 
+     * ? eg: getTotal(["Rabbit", "Football", "Cracking"]) => 22
+     */
+
+    /* let words = ["Rabbit", "Football", "Cracking"]
+
+    function getTotal() {
+        return words.reduce((currentSum, nextWord) => currentSum + nextWord.length, 0)
+    }
+
+    console.log(getTotal()) */
+
+    /**
+     * ? using "every" method, write a function that checks whether every number in an array is a square number
+     * 
+     * ? eg: checkSquares([9, 16, 81]) => true
+     */
+
+    let squareNum = [9, 16, 81]
+
+    function checkSquares() {
+        return squareNum.every(num => num && Math.sqrt(num) % 1 === 0 )
+    }
+    
+    console.log(checkSquares())
+
+    /**
+     * 
+     * 
+     */
+
+
+
+    /**
+     * 
+     * 
+     */
+
+
+
+    /**
+     * 
+     * 
+     */
+
+
+    //!-----------------------------------------------------------------------------------------------------------
 })
