@@ -1395,7 +1395,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //!++++++++++++++++++++++++++++++++
 
-    let circle = document.querySelector(".circle2")
+    /* let circle = document.querySelector(".circle2")
 
     let count = 150
 
@@ -1404,11 +1404,14 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(count)
         circle.style.top = count + "px";
 
-        if (count === 650) {
+        if (count === 500) {
             circle.removeEventListener("click", moveCircle)
         }
     }
 
-    circle.addEventListener("click", moveCircle)
+    circle.addEventListener("click", moveCircle) */
+    
+    //! CHAPTER: .QUERYSELECTOR()
+
     
 })
