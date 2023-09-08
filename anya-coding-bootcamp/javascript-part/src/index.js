@@ -1343,4 +1343,72 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(capitalise("lets go back home Son")) */
 
     //!-----------------------------------------------------------------------------------------------------------
+
+    //! CHAPTER: ADDEVENTLISTENER()
+
+    //* the event target method addEventListener() sets up a function that will be called whenever the specified element is delivered to the target
+
+    //* syntax:
+    //target.addEventListener(event, function)
+    
+    
+    /* const hex = document.querySelector(".hex") 
+    
+    // const hex = document.getElementById("hex")
+    
+    function alertMe() {
+        console.log("Clicked!")
+    }
+    
+    hex.addEventListener("mouseover", alertMe) */
+
+    // hex.addEventListener("click", alertMe)
+
+    //!                OR:
+
+    /* const body = document.querySelector("html")
+
+    body.addEventListener("click", function() {
+        console.log("Clicked!")
+    }) */
+
+    //! CHAPTER: .REMOVEEVENTLISTENER()
+
+    //* .removeEventListener() method removes an event handler that has been attached with the .addEventListener() method
+
+    /* let circle = document.querySelector(".circle2")
+    let count = 0
+
+    function toggleColor() {
+        circle.classList.toggle("red-circle2")
+
+        count++
+
+        console.log(count)
+
+        if (count > 10) {
+            circle.removeEventListener("click", toggleColor)
+        }
+    }
+
+    circle.addEventListener("click", toggleColor) */
+
+    //!++++++++++++++++++++++++++++++++
+
+    let circle = document.querySelector(".circle2")
+
+    let count = 150
+
+    function moveCircle() {
+        count += 50
+        console.log(count)
+        circle.style.top = count + "px";
+
+        if (count === 650) {
+            circle.removeEventListener("click", moveCircle)
+        }
+    }
+
+    circle.addEventListener("click", moveCircle)
+    
 })
