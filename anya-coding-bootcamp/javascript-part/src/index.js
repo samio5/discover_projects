@@ -1199,7 +1199,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    //! TIME FOR ARRAY WORK! (hard)
+    //! TIME FOR ARRAY WORK!
 
     /**
      * ? Q) Using "map", write the function that convert fahrenheit to celcius.
@@ -1270,33 +1270,77 @@ document.addEventListener('DOMContentLoaded', () => {
      * ? eg: checkSquares([9, 16, 81]) => true
      */
 
-    let squareNum = [9, 16, 81]
+    /* let squareNum = [9, 16, 81]
 
     function checkSquares() {
         return squareNum.every(num => num && Math.sqrt(num) % 1 === 0 )
     }
     
     console.log(checkSquares())
+    console.log(Math.sqrt(9))
+    console.log(Math.sqrt(81)) */
 
     /**
+     * ? Using an array method, write a function that returns the string elements of an array that have given length or larger.
      * 
-     * 
+     * ? eg: getWords(["Florida", "dog", "phone"], 5) => ["Florida", "phone"]
      */
 
+    // const words = ["Florida", "dog", "phone"]
 
+    /* function getWords(array, number) {
+        return array.filter(word => word.length >= number)
+    }
+
+    console.log(getWords(["Florida", "dog", "phone"], 5))
+    console.log(getWords(["Pen", "Blockade", "Sharpener"], 9)) */
 
     /**
+     * ? Using an array method, write a function that converts an array of cm values as strings, into an array of numbers
      * 
-     * 
+     * ? eg: getValues(["23cm", "5.6cm", "1000cm"]) => [23, 5.6, 1000]
      */
 
+    /* function getValues(values) {
+        return values.map(num => parseFloat(num))
+    }
 
+    console.log(getValues(["2444cm", "126cm", "643va2w14"]))
+    console.log(getValues(["23cm", "5.6cm", "1000cm"])) */
 
     /**
+     * ? Using "split" and "filter" write a function that counts the number of vowels in a sentence
      * 
-     * 
+     * ? eg: getVowelCount("In West Philadelphia, born and raised") => 12
      */
 
+    /* let sentence = "In West Philadelphia, born and raised"
+
+    function getVowelCount(sentence) {
+        return sentence.split("").filter(letter => ("aeiouAEIOU").includes(letter)).length
+    }
+
+    console.log(sentence.split("").filter(letter => ("aeiouAEIOU").includes(letter)))
+
+    console.log(getVowelCount("In West Philadelphia, born and raised"))
+
+    console.log(getVowelCount("The first paragraph of a typical business letter is used to state the main point of the letter.")) */
+
+    /**
+     * ? using "split", "map" and "join", write a function that capitalises the first letter of each word in a sentence.
+     * 
+     * ? captialise("the queens gambit") => "The Queens Gambit"
+     */
+
+    /* const str = ("the queens gambit")
+
+    function capitalise(str) {
+        return str.split(" ").map(word => word.charAt(0).toUpperCase() + word.substring(1)).join(" ")
+        
+    }
+    console.log(capitalise("the queens gambit"))
+
+    console.log(capitalise("lets go back home Son")) */
 
     //!-----------------------------------------------------------------------------------------------------------
 })
