@@ -1413,5 +1413,16 @@ document.addEventListener('DOMContentLoaded', () => {
     
     //! CHAPTER: .QUERYSELECTOR()
 
-    
+    //* the document method .queryselector() returns the first element within the document that matches the specified selector 
+
+    // const circleContainer = console.log((document.querySelector("div"))
+
+    // const circle2 = console.log(document.querySelector(".circle2"))
+
+    // const circles = console.log(document.querySelectorall(".circle"))
+
+    // const circleMain = console.log(document.querySelector("#main"))
+
+    // const circleMain = console.log(document.getElementById("main"))
+
 })
