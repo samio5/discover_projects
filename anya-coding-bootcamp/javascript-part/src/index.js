@@ -1344,7 +1344,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //!-----------------------------------------------------------------------------------------------------------
 
-    //! CHAPTER: ADDEVENTLISTENER()
+    //! CHAPTER: ADDEVENTLISTENER()--------------------------------
 
     //* the event target method addEventListener() sets up a function that will be called whenever the specified element is delivered to the target
 
@@ -1372,7 +1372,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("Clicked!")
     }) */
 
-    //! CHAPTER: .REMOVEEVENTLISTENER()
+    //! CHAPTER: .REMOVEEVENTLISTENER()--------------------------------
 
     //* .removeEventListener() method removes an event handler that has been attached with the .addEventListener() method
 
@@ -1411,7 +1411,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     circle.addEventListener("click", moveCircle) */
     
-    //! CHAPTER: .QUERYSELECTOR()
+    //! CHAPTER: .QUERYSELECTOR()--------------------------------
 
     //* the document method .queryselector() returns the first element within the document that matches the specified selector 
 
@@ -1424,5 +1424,57 @@ document.addEventListener('DOMContentLoaded', () => {
     // const circleMain = console.log(document.querySelector("#main"))
 
     // const circleMain = console.log(document.getElementById("main"))
+
+    //! CHAPTER: MATH OBJECT--------------------------------
+
+    /**
+     * ^ 1) MATH.RANDOM() FUNCTION: //* The Math.random() static method returns a floating-point, pseudo-random number that's greater than or equal to 0 and less than 1, with approximately uniform distribution over that range — which you can then scale to your desired range.
+     * 
+     * ^ 2) MATH.FLOOR() FUNCTION: //* Math floor rounds numbers down to the nearest full integer.
+     * 
+     * ^ 3) MATH.CEIL() FUNCTION: //* Math ceil rounds numbers up to the nearest full integer.
+     * 
+     * ^ 4) MATH.ROUND() FUNCTION: //* Math round rounds numbers to the nearest full integer.
+     */
+
+    //^ 1) MATH.RANDOM() FUNCTION--------------------------------
+    //* The Math.random() static method returns a floating-point, pseudo-random number that's greater than or equal to 0 and less than 1, with approximately uniform distribution over that range — which you can then scale to your desired range.
+
+    const Tetrominoes = ["LTetromino", "ZTetromino", "iTetromino"]
+
+    // console.log(Math.random() * 3)
+    // console.log(Math.random() * Tetrominoes.length)
+    // console.log(Tetrominoes[1])
+
+    const randomNumber = Math.random() * Tetrominoes.length
+
+    //^ 2) MATH.FLOOR() FUNCTION--------------------------------
+    //* Math floor rounds numbers down to the nearest full integer.
+
+    const randomInteger = Math.floor(randomNumber)
+
+    console.log(randomNumber)
+    console.log(randomInteger)
+
+    //^ 3) MATH.CEIL() FUNCTION--------------------------------
+    //* Math ceil rounds numbers up to the nearest full integer.
+
+    const randomInteger1 = Math.ceil(randomNumber)
+
+    console.log(randomInteger1)
+
+    //^ 4) MATH.ROUND() FUNCTION--------------------------------
+    //* Math round rounds numbers to the nearest full integer.
+
+    const randomInteger2 = Math.round(randomNumber)
+
+    console.log(randomInteger2)
+
+    //!++++++++++++++++++++++++++++++++
+
+    console.log(Tetrominoes[randomInteger])
+
+    //! Exercise
+    
 
 })
