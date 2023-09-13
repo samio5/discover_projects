@@ -1475,6 +1475,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(Tetrominoes[randomInteger])
 
     //! Exercise
-    
+
+    //! 2
 
 })
