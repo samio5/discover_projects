@@ -1476,6 +1476,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //! Exercise
 
-    //! 2
-
 })
