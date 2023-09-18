@@ -1476,4 +1476,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //! Exercise
 
+    // let drinksMenu = ["Water", "Coke", "7up", "Pepsi", "Mountain Dew"]
+
+    //* How to pick a drink from this list at random?
+
+    /* let randomDrinkNumber = Math.floor(Math.random() * drinksMenu.length)
+
+    let randomDrinkInteger = Math.floor(randomDrinkNumber)
+
+    console.log(drinksMenu[(randomDrinkInteger)]) */ 
+    //!or
+    /* console.log(drinksMenu[(Math.floor(Math.random() * drinksMenu.length))])
+
+    let randomDrink = drinksMenu[(Math.floor(Math.random() * drinksMenu.length))]
+
+    console.log(randomDrink)  */
+
 })
