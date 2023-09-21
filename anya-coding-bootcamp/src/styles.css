@@ -15,11 +15,24 @@ nav{
 .hamburger {
     border: 0;
     background-color: transparent;
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
+
+/* min width means minimum width to start styling and anything above that min width will have that style applied */
+
+@media only screen and (min-width: 360px) {
+    .hamburger {
+        margin-right: 15px;
+    }
 }
 
 .nav-bar{
     display: none;
+}
+
+.nav-bar.show {
+    display: flex;
 }
 
 /* max-width:736px  min-width: 500px */
