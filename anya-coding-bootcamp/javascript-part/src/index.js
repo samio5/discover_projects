@@ -1492,6 +1492,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log(randomDrink)  */
 
-    //james rollandhjgyg
-
 })
