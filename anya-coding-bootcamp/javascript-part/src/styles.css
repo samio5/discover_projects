@@ -1,10 +1,10 @@
 /*! moveBob Exercise */
 
-/* body{
-    background-color: rgb(70, 99, 109);
+body {
+    background-color: rgb(48, 52, 67);
 }
 
-.face{
+/* .face{
     width: 150px;
     height: 150px;
     border-radius: 100%;
@@ -55,13 +55,12 @@
     margin: 20px;
 } */
 
-body {
-    background-color: rgb(48, 55, 65);
-    /* display: flex;
+/* body {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; */
-}
+    align-items: center; 
+}*/
 
 /*! .pop exercise */
 
@@ -225,11 +224,7 @@ body {
     
 } */
 
-body {
-    background-color: rgb(48, 52, 67);
-}
-
-.circle2-container {
+/* .circle2-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,4 +244,48 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 100%;
+} */
+
+/*! date() object exercise  */
+
+/* .pill-container {
+    height: 542px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pill {
+    width: 600px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(197, 24, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 10vw;
+} */
+
+/*! settimeout() exercise  */
+
+.pill-container {
+    height: 542px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pill {
+    width: 600px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(197, 24, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 10vw;
 }

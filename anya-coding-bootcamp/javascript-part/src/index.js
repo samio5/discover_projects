@@ -1440,7 +1440,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //^ 1) MATH.RANDOM() FUNCTION--------------------------------
     //* The Math.random() static method returns a floating-point, pseudo-random number that's greater than or equal to 0 and less than 1, with approximately uniform distribution over that range — which you can then scale to your desired range.
 
-    const Tetrominoes = ["LTetromino", "ZTetromino", "iTetromino"]
+    /* const Tetrominoes = ["LTetromino", "ZTetromino", "iTetromino"]
 
     // console.log(Math.random() * 3)
     // console.log(Math.random() * Tetrominoes.length)
@@ -1472,9 +1472,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //!++++++++++++++++++++++++++++++++
 
-    console.log(Tetrominoes[randomInteger])
+    console.log(Tetrominoes[randomInteger]) */
 
-    //! Exercise
+    //!-----------------------------------------------------------------------------------------------------------
+    
+    //! Exercise--------------------------------
 
     // let drinksMenu = ["Water", "Coke", "7up", "Pepsi", "Mountain Dew"]
 
@@ -1491,5 +1493,83 @@ document.addEventListener('DOMContentLoaded', () => {
     let randomDrink = drinksMenu[(Math.floor(Math.random() * drinksMenu.length))]
 
     console.log(randomDrink)  */
+    
+    //!-----------------------------------------------------------------------------------------------------------
+
+    //^ CHAPTER: DATE OBJECT--------------------------------
+
+    //* The date object represents a single moment in time in a platform dependent format. Date objects contain a number that represents milliseconds since 1st, January, 1970, UTC.
+
+    // const today = new Date() //* Date() is called a constructor, that shows today's date.
+
+    // const date = today.getDate() //* the date, today is 22/9/2023, so it will show 22
+
+    // const day = today.getDay() //* the day of the week
+
+    // const fullYear = today.getFullYear() //* the year
+
+    // const hours = today.getHours()
+
+    // const isoStringDate = today.toISOString()
+
+    // console.log(today)
+    // console.log(date)
+    // console.log(day)
+    // console.log(fullYear)
+    // console.log(hours)
+    // console.log(isoStringDate)
+
+    //!++++++++++++++++++++++++++++++++
+
+    // const dateDisplay = document.querySelector(".pill")
+
+    // const christmas = new Date("2023-12-24T22:51:52.767Z")
+    
+    // // console.log(christmas - today) //* we get the difference of time in milliseconds
+
+    // const millisecondsToXmas = christmas - today
+
+    // const minutes = millisecondsToXmas / 60000
+
+    // console.log(minutes)
+    
+    // dateDisplay.innerHTML = Math.round(minutes)
+
+    //^ CHAPTER: .SETTIMEOUT METHOD--------------------------------
+
+    //* the set timeout method calls a function or evaluates a expression after a specified of milliseconds have passed
+
+    // setTimeout(function, milliseconds) //* THIS IS SYNTAX
+
+    // const time = 3000
+    // const time2 = 4000
+    // const time3 = 6000
+
+    // const pill = document.querySelector(".pill")
+
+    // function showText() {
+    //     // console.log("all good!")
+    //     pill.innerHTML = "DAMN!"
+    // }
+
+    // setTimeout(showText, time)
+
+    // //!++++++++++++++++++++++++++++++++
+
+    // function deleteText() {
+    //     // console.log("all good!")
+    //     pill.style.display = "none"
+    // }
+
+    // setTimeout(deleteText, time2)
+
+    // //!++++++++++++++++++++++++++++++++
+
+    // // function appearText() {
+    // //     // console.log("all good!")
+    // //     pill.style.display = "flex"
+    // // }
+
+    // setTimeout(function(){pill.style.display = "flex"}, 6000)
 
 })
