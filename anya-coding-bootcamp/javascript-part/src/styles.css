@@ -270,7 +270,7 @@ body {
 
 /*! settimeout() exercise  */
 
-.pill-container {
+/* .pill-container {
     height: 542px;
     display: flex;
     justify-content: center;
@@ -288,4 +288,29 @@ body {
     font-weight: bold;
     color: white;
     font-size: 10vw;
+} */
+
+/*! setinterval() exercise  */
+
+.pill-container {
+    height: 542px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pill {
+    position: absolute;
+    top: 179px;
+    width: 600px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(197, 24, 160);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1vw;
 }

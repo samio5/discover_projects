@@ -1496,7 +1496,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     //!-----------------------------------------------------------------------------------------------------------
 
-    //^ CHAPTER: DATE OBJECT--------------------------------
+    //! CHAPTER: DATE OBJECT--------------------------------
 
     //* The date object represents a single moment in time in a platform dependent format. Date objects contain a number that represents milliseconds since 1st, January, 1970, UTC.
 
@@ -1535,7 +1535,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // dateDisplay.innerHTML = Math.round(minutes)
 
-    //^ CHAPTER: .SETTIMEOUT METHOD--------------------------------
+    //! CHAPTER: SETTIMEOUT METHOD--------------------------------
 
     //* the set timeout method calls a function or evaluates a expression after a specified of milliseconds have passed
 
@@ -1554,7 +1554,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // setTimeout(showText, time)
 
-    // //!++++++++++++++++++++++++++++++++
+    //!++++++++++++++++++++++++++++++++
 
     // function deleteText() {
     //     // console.log("all good!")
@@ -1563,13 +1563,170 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // setTimeout(deleteText, time2)
 
-    // //!++++++++++++++++++++++++++++++++
+    //!++++++++++++++++++++++++++++++++
 
-    // // function appearText() {
-    // //     // console.log("all good!")
-    // //     pill.style.display = "flex"
-    // // }
+    // function appearText() {
+    //     // console.log("all good!")
+    //     pill.style.display = "flex"
+    // }
 
     // setTimeout(function(){pill.style.display = "flex"}, 6000)
+
+    //! CHAPTER: SETINTERVAL() METHOD--------------------------------
+
+    //* the set timeout method calls a function or evaluates a expression at specified intervals. it will continue calling the function until the interval is cleared or the window closes.
+
+    // setInterval(function, milliseconds) //* SYNTAX!
+
+    // const pill = document.querySelector(".pill")
+    // const text = "Alert! ⚠️"
+    // const time = 2000
+
+    // function showAlert() {
+    //     const textDisplay = document.createElement("div")
+    //     textDisplay.innerHTML = text
+
+    //     pill.appendChild(textDisplay)
+        
+    //     // console.log("I'm working!")
+    // }
+
+    // setInterval(showAlert, time)
+
+    //!++++++++++++++++++++++++++++++++
+
+    //* now using setInterval(), print out your name in console.log
+
+    // const time = 2000
+    // const name = "mofongo."
+
+    // function printName() {
+    //     console.log("My name is " + name)
+    // }
+
+    // setInterval(printName, time)
+
+    //! CHAPTER: CLEARINTERVAL() METHOD--------------------------------
+
+    //* clearinterval is used to stop the interval created with the method .setInterval()
+
+    // const time = 2000
+    // const name = "mofongo."
+
+    // function printName() {
+    //     console.log("My name is " + name)
+    // }
+
+    // const timerID = setInterval(printName, time)
+    // console.log(timerID)
+
+    // clearInterval(timerID)
+
+    //!++++++++++++++++++++++++++++++++
+    
+    /* let pill = document.querySelector(".pill")
+    let count = 179
+    let time = 1000
+    
+    function movePill() {
+        count += 50
+        console.log(count)
+
+        pill.style.top = count + "px"
+
+        if (count === 629) {
+            clearInterval(timerID)
+        }
+    }
+
+    let timerID = setInterval(movePill, time) */
+
+    //! CHAPTER: CLASSES
+
+    //* Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are unique to classes. The class syntax has two components, class expressions and class declerations.
+
+    //^ 1) Class decleration:
+
+    /* class rectangle {
+        constructor(height, width) {
+            this.height = height;
+            this.width = width;
+        }
+    }
+
+    let newRectangle = new rectangle(300, 100)
+    console.log(newRectangle)
+    console.log(newRectangle.height)
+    console.log(newRectangle.width) */
+
+    //!++++++++++++++++++++++++++++++++
+
+    /* class ghost {
+        constructor(className, speed, color, startingPoint) {
+            this.className = className;
+            this.speed = speed;
+            this.color = color;
+            this.startingPoint = startingPoint;
+        }
+    }
+
+    let blinky = new ghost("Blinky", 300, "blue", 4)
+    let inky = new ghost("Inky", 250, "green", 10)
+    let dinky = new ghost("Dinky", 350, "orange", 20)
+    let shroud = new ghost("Shroud", 400, "white", 15)
+
+    console.log(blinky.speed) */
+
+    //! CHAPTER: KEYS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 })
