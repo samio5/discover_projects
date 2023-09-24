@@ -395,11 +395,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // true ? console.log('Sorry you have lost.') : console.log('Carry on playing.')
 
-
-
     //!-----------------------------------------------------------------------------------------------------------
-
-
 
     //!FIZZ BUZZ QUIZ TIME!
 
@@ -421,15 +417,10 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(count)
     } */
 
-
-
     //!-----------------------------------------------------------------------------------------------------------
 
-
-
     //!CHAPTER: FOR LOOPS--------------------------------
-
-    //^For Loops: it is a control flow statement used to execute a block of code as many times as we want.'
+    //*For Loops: it is a control flow statement used to execute a block of code as many times as we want.'
 
     /* for(let i = 0; i < 10; i++){
         console.log(i)
@@ -464,10 +455,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } */
 
 
-
     //!-----------------------------------------------------------------------------------------------------------
-
-
 
     //!FIZZ BUZZ QUIZ TIME!
 
@@ -504,15 +492,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     } */
 
-
-
     //!-----------------------------------------------------------------------------------------------------------
 
-
-
     //!CHAPTER: ARRAYS--------------------------------
+    //*ARRAYS: an array is an object that can store multiple values at once.
 
-    //^ARRAYS: an array is an object that can store multiple values at once.
     //^Examples:
 
     /* let books = ['Moby Dick', 'Life of Pi', 'Sapiens']
@@ -552,8 +536,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } */
 
     //!CHAPTER: OBJECTS--------------------------------
-
-    //^OBJECTS; Objects are the main unit in object-oriented programming. they are core data structures that comprise properties and methods. While methods are functions/actions an object can perform, and properties are characteristics of an object such as its name and value. Like in real life, a car is an object. A car has properties like weight and color, and methods like start and stop. Properties like car.name = Fiat, car.model = 500, car.weight = 850kg, car.color = white. And methods like car.start(), car.drive(), car.brake(), car.stop(). All cars have the same properties, but the property values differ from car to car. All cars have the same methods, but the methods are performed at different times.
+    //*OBJECTS; Objects are the main unit in object-oriented programming. they are core data structures that comprise properties and methods. While methods are functions/actions an object can perform, and properties are characteristics of an object such as its name and value. Like in real life, a car is an object. A car has properties like weight and color, and methods like start and stop. Properties like car.name = Fiat, car.model = 500, car.weight = 850kg, car.color = white. And methods like car.start(), car.drive(), car.brake(), car.stop(). All cars have the same properties, but the property values differ from car to car. All cars have the same methods, but the methods are performed at different times.
 
     /* const user = {
 //   this is a     this is a
@@ -638,7 +621,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     //!CHAPTER: FUNCTIONS--------------------------------
-
     //*A function is a set of statements that performs a task or calculates a value when it is invoked (called).
 
     //*camelCase naming format for naming functions, it is best practice. Camelcase naming example: sendText. small letter for first word, then capital letter for second word and so on.
@@ -702,8 +684,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //!-----------------------------------------------------------------------------------------------------------
 
-
-
     //!EXERCISE TIME!
 
     /* const bob = document.querySelector('.face')
@@ -754,7 +734,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     //! CHAPTER: WHILE LOOPS--------------------------------
-
     //* While loop lets you run a block of code as long as the statement is true until the statement is not true anymore.
 
     /* let i = 0
@@ -767,9 +746,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //! CHAPTER: BUILT-IN OBJECTS--------------------------------
 
     /**
-     * ^ Examples: Date, Math, String, Array, Object etc. Each of them have their own Methods and Properties.
-     *
-     * ^ .length = it is a javascript property. it can be used on Strings or Arrays.
+     * * Examples: Date, Math, String, Array, Object etc. Each of them have their own Methods and Properties.
+     * * .length = it is a javascript property. it can be used on Strings or Arrays.
      */
 
     /* const word = "banana"
@@ -783,7 +761,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(balls.length) */
 
     //! CHAPTER: .CONCAT() method--------------------------------
-
     //* the .concat method is used to merge two or more things, example here is merging arrays and strings together.
 
     //^ using STRINGS:
@@ -805,7 +782,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(newArray) */
 
     //! CHAPTER: .JOIN() METHOD--------------------------------
-
     //* the .join javascript method creates and returns a new string by concatinating all of the elements in an array
 
     /* const textDisplay = document.querySelector(".text")
@@ -817,9 +793,7 @@ document.addEventListener('DOMContentLoaded', () => {
     textDisplay.innerHTML = newString */
 
     //! CHAPTER: .POP() METHOD--------------------------------
-
     //* the .pop javascript method removes the last element from any array and returns that element
-
     //* .pop changes the length of the array
 
     /* const display = document.querySelector(".display")
@@ -855,7 +829,6 @@ document.addEventListener('DOMContentLoaded', () => {
     display.innerHTML = movies */
 
     //! CHAPTER: .SHIFT() METHOD--------------------------------
-
     //* shift is the opposite of .pop where in it removes the first element of an array and returns the removed element.
 
     //* it changes the length of an array
@@ -872,8 +845,7 @@ document.addEventListener('DOMContentLoaded', () => {
     display.innerHTML = count */
 
     //! CHAPTER: .UNSHIFT() METHOD--------------------------------
-
-    //* .unshift is a method that adds one of more elements to the beginning of an array and returns a new array
+    //* .unshift is a method that adds one of more elements to the beginning of an array and returns a new array.
 
     //* this will change the original array
 
@@ -891,9 +863,7 @@ document.addEventListener('DOMContentLoaded', () => {
     display.innerHTML = games */
 
     //! CHAPTER: .PUSH() METHOD--------------------------------
-
     //* .push is a javascript method that adds one of more elements to the end of an array and returns the new length of the array
-
     //* it changes the original array
 
     /* const display = document.querySelector(".display")
@@ -905,9 +875,7 @@ document.addEventListener('DOMContentLoaded', () => {
     display.innerHTML = actors */
 
     //! CHAPTER: .SLICE() METHOD--------------------------------
-
     //* slice is a javascript method that is used to remove certain parts of an array
-
     //* it does not change the arrays, it makes new a new array.
 
     // const display = document.querySelector(".display")
@@ -943,7 +911,6 @@ document.addEventListener('DOMContentLoaded', () => {
     display.innerHTML = sArtists */
 
     //! CHAPTER: .SPLICE() METHOD--------------------------------
-
     //* .splice javascript method changes the content of an array by removing or replacing existing elements or adding new elements in its place.
 
     /* const movies = ["Elf", "Annie", "Hero 6"]
@@ -984,7 +951,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // let splicedArray = array.splice(start,deleteCount, replacement)
 
     //! CHAPTER: .FOREACH() METHOD--------------------------------
-
     //* .foreach() is a javascript method and it executes a provided function once for every array element
     //* .foreach() is similar to a loop
 
@@ -1011,7 +977,6 @@ document.addEventListener('DOMContentLoaded', () => {
         ) */
 
     //! CHAPTER: .SOME() METHOD--------------------------------
-    
     //* the .some() is a javascript method that tests whether at least one element in an array passes the test implemented by provided function
     
     /* const scores = [23, 36, 26, 59]
@@ -1040,7 +1005,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(isHeartBroken) */
 
     //! CHAPTER: .MAP() METHOD--------------------------------
-
     //* the .map() method is similar to a .foreach() method where it performs a function for every array element however it creates a new array.
 
     //* syntax:
@@ -1075,7 +1039,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(housemates2023) */
 
     //! CHAPTER: .FLITER() METHOD--------------------------------
-
     //* Filter method is used for filtering out. It creates a new array with all the elements that pass the test implemented by the provided function
 
     /* const shows = ["Lupin", "Cobra Kai", "24", "Mr. Robot"]
@@ -1124,7 +1087,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(twoSeriesShows) */
 
     //! CHAPTER: .REDUCE() METHOD--------------------------------
-
     //* the reduce javascript method executes a reduce of function on each element of the array resulting in a single output value. meaning we are adding an array of numbers together.
 
     // const scores = [52, 25, 66, 77, 22]
@@ -1145,8 +1107,8 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(totalScore) */
 
     //! CHAPTER: .EVERY() METHOD--------------------------------
-
     //* the every javascript method tests whether all the elements in an array pass the test implemented by the provided function, it returns a boolean value.
+
     //* if everything in our array matches a rule, return true.
 
     /* const testResults = [45, 34, 76, 89, 45, 65, 67]
@@ -1164,7 +1126,6 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(isThreeLetterAnimals) */
 
     //! CHAPTER: .SPLIT() METHOD--------------------------------
-
     //* the split javascript method divides a string into an ordered list of sub-strings and it puts these sub-strings into an array and returns that array. The division is done by a pattern where the pattern is provided as the first parameter in the method's call.
 
     /* const sentence = "I will have what she is having."
@@ -1345,7 +1306,6 @@ document.addEventListener('DOMContentLoaded', () => {
     //!-----------------------------------------------------------------------------------------------------------
 
     //! CHAPTER: ADDEVENTLISTENER()--------------------------------
-
     //* the event target method addEventListener() sets up a function that will be called whenever the specified element is delivered to the target
 
     //* syntax:
@@ -1373,7 +1333,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }) */
 
     //! CHAPTER: .REMOVEEVENTLISTENER()--------------------------------
-
     //* .removeEventListener() method removes an event handler that has been attached with the .addEventListener() method
 
     /* let circle = document.querySelector(".circle2")
@@ -1412,7 +1371,6 @@ document.addEventListener('DOMContentLoaded', () => {
     circle.addEventListener("click", moveCircle) */
     
     //! CHAPTER: .QUERYSELECTOR()--------------------------------
-
     //* the document method .queryselector() returns the first element within the document that matches the specified selector 
 
     // const circleContainer = console.log((document.querySelector("div"))
@@ -1497,7 +1455,6 @@ document.addEventListener('DOMContentLoaded', () => {
     //!-----------------------------------------------------------------------------------------------------------
 
     //! CHAPTER: DATE OBJECT--------------------------------
-
     //* The date object represents a single moment in time in a platform dependent format. Date objects contain a number that represents milliseconds since 1st, January, 1970, UTC.
 
     // const today = new Date() //* Date() is called a constructor, that shows today's date.
@@ -1536,7 +1493,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // dateDisplay.innerHTML = Math.round(minutes)
 
     //! CHAPTER: SETTIMEOUT METHOD--------------------------------
-
     //* the set timeout method calls a function or evaluates a expression after a specified of milliseconds have passed
 
     // setTimeout(function, milliseconds) //* THIS IS SYNTAX
@@ -1573,7 +1529,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // setTimeout(function(){pill.style.display = "flex"}, 6000)
 
     //! CHAPTER: SETINTERVAL() METHOD--------------------------------
-
     //* the set timeout method calls a function or evaluates a expression at specified intervals. it will continue calling the function until the interval is cleared or the window closes.
 
     // setInterval(function, milliseconds) //* SYNTAX!
@@ -1607,7 +1562,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // setInterval(printName, time)
 
     //! CHAPTER: CLEARINTERVAL() METHOD--------------------------------
-
     //* clearinterval is used to stop the interval created with the method .setInterval()
 
     // const time = 2000
@@ -1642,7 +1596,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let timerID = setInterval(movePill, time) */
 
     //! CHAPTER: CLASSES
-
     //* Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are unique to classes. The class syntax has two components, class expressions and class declerations.
 
     //^ 1) Class decleration:
@@ -1677,12 +1630,103 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log(blinky.speed) */
 
-    //! CHAPTER: KEYS
+    //! CHAPTER: KEYS or KEYBOARD EVENTS
+    //* we link keys on our keyboard to move elements in the browser.
 
+    // let circle = document.querySelector(".circle")
 
+    // we can type control(event) or control(e)
 
+    /* function control(event) {
+        if (event.key === "ArrowLeft") {
+            console.log("Pressed left!")
+        } else if (event.key === "ArrowRight") {
+            console.log("Pressed right!")
+        } else if (event.key === "ArrowUp") {
+            console.log("Pressed up!")
+        } else if (event.key === "ArrowDown") {
+            console.log("Pressed down!")
+        } else if (event.key === "a") {
+            console.log("Pressed a!")
+        } else if (event.keyCode === 17) {
+            console.log("Pressed Ctrl!")
+        }
+    }
 
+    document.addEventListener("keydown", control) */
 
+    //!++++++++++++++++++++++++++++++++
+
+    //^ WRITING KEYS AS A SWITCH STATEMENT:
+    //* the switch statement evaluates an expression matching the expressions values to a case clause and executes statements associated with that case.
+
+    /* let circle = document.querySelector(".circle")
+    let xAxis = 0
+    let yAxis = 0
+
+    function control(e) {
+        switch (e.key) {
+            case "ArrowLeft":
+                console.log("Pressed Left")
+                xAxis -= 50
+                circle.style.left = xAxis + "px"
+                break;
+            case "ArrowRight":
+                console.log("Pressed Right")
+                xAxis += 50
+                circle.style.left = xAxis + "px"
+                break;
+            case "ArrowUp":
+                console.log("Pressed Up")
+                yAxis -= 50
+                circle.style.top = yAxis + "px"
+                break;
+            case "ArrowDown":
+                console.log("Pressed Down")
+                yAxis += 50
+                circle.style.top = yAxis + "px"
+                break;
+            case "a":
+                console.log("Pressed a")
+                break;
+            case 17:
+                console.log("Pressed Ctrl")
+                break;
+            default: console.log("key not recognised")
+        }
+    }
+
+    document.addEventListener("keydown", control) */
+
+    //!-----------------------------------------------------------------------------------------------------------
+
+    //! EXERCISE:
+    //* make the circle smile when pressing arrow up and be sad when pressing arrow down.
+
+    let circle = document.querySelector(".circle")
+    let smile = document.querySelector(".smile")
+    let sad = document.querySelector(".sad")
+    let neutral = document.querySelector(".neutral")
+
+    function interactCircle(e) {
+        if (e.key === "ArrowUp") {
+            neutral.style.display = "none"
+            sad.style.display = "block"
+            smile.style.display = "none"
+        } else if (e.key === "ArrowDown") {
+            neutral.style.display = "none"
+            smile.style.display = "block"
+            sad.style.display = "none"
+        } else if (e.key === "ArrowLeft") {
+            neutral.style.display = "block"
+            smile.style.display = "none"
+            sad.style.display = "none"
+        }
+    }
+
+    document.addEventListener("keydown", interactCircle)
+
+    //!-----------------------------------------------------------------------------------------------------------
 
 
 
