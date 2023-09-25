@@ -1732,12 +1732,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //* the sort method sorts elemets of an array in place and returns a sorted array.
     //* default sort order: ascending based on UFT16 CODE UNIT VALUES (meaning alphabetically)
 
-    // let planets = ["Mars", "Jupiter", "Uranus", "Earth"]
 
-    // let sortedPlanets = planets.sort()
-    // console.log(sortedPlanets)
 
-    // let ages = [32, 23, 22, 16, 51, 63, 11, 99]
 
     // console.log(ages.sort())
 
