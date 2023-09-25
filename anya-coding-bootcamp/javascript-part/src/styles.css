@@ -317,7 +317,7 @@ body {
 
 /*! keys exercise */
 
-.circle-container {
+/* .circle-container {
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -379,4 +379,22 @@ body {
     background-color: black;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+} */
+
+/*! createelement exercise */
+
+.create {
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }

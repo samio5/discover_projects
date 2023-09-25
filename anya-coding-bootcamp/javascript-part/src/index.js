@@ -1595,7 +1595,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let timerID = setInterval(movePill, time) */
 
-    //! CHAPTER: CLASSES
+    //! CHAPTER: CLASSES--------------------------------
     //* Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are unique to classes. The class syntax has two components, class expressions and class declerations.
 
     //^ 1) Class decleration:
@@ -1630,7 +1630,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log(blinky.speed) */
 
-    //! CHAPTER: KEYS or KEYBOARD EVENTS
+    //! CHAPTER: KEYS or KEYBOARD EVENTS--------------------------------
     //* we link keys on our keyboard to move elements in the browser.
 
     // let circle = document.querySelector(".circle")
@@ -1657,7 +1657,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //!++++++++++++++++++++++++++++++++
 
-    //^ WRITING KEYS AS A SWITCH STATEMENT:
+    //^ WRITING KEYS AS A SWITCH STATEMENT:--------------------------------
     //* the switch statement evaluates an expression matching the expressions values to a case clause and executes statements associated with that case.
 
     /* let circle = document.querySelector(".circle")
@@ -1700,10 +1700,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //!-----------------------------------------------------------------------------------------------------------
 
-    //! EXERCISE:
+    //! EXERCISE:--------------------------------
     //* make the circle smile when pressing arrow up and be sad when pressing arrow down.
 
-    let circle = document.querySelector(".circle")
+    /* let circle = document.querySelector(".circle")
     let smile = document.querySelector(".smile")
     let sad = document.querySelector(".sad")
     let neutral = document.querySelector(".neutral")
@@ -1724,54 +1724,88 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    document.addEventListener("keydown", interactCircle)
+    document.addEventListener("keydown", interactCircle) */
 
     //!-----------------------------------------------------------------------------------------------------------
 
+    //! CHAPTER: .SORT() METHOD--------------------------------
+    //* the sort method sorts elemets of an array in place and returns a sorted array.
+    //* default sort order: ascending based on UFT16 CODE UNIT VALUES (meaning alphabetically)
 
+    // let planets = ["Mars", "Jupiter", "Uranus", "Earth"]
 
+    // let sortedPlanets = planets.sort()
+    // console.log(sortedPlanets)
 
+    // let ages = [32, 23, 22, 16, 51, 63, 11, 99]
 
+    // console.log(ages.sort())
 
+    //! CHAPTER: .INCLUDES() METHOD--------------------------------
+    //* the includes method determines whether an array includes a certain value amongst its entries, returning true or false as appropriate.
 
+    // let books = ["Alf", "Oliver Twist", "Power of Now"]
 
+    // let book = "Alf"
+    // let booksPresent = books.includes(book)
 
+    // console.log(booksPresent)
 
+    //! CHAPTER: .CONTAINS() METHOD--------------------------------
+    //* contains is used to find out if a node exists in a specific node, ex: if I want to find out if the body has a child that has an element with a class called circle.
 
+    // let body = document.querySelector("body")
+    // let circle = document.querySelector(".circle")
 
+    // console.log(body.contains(circle))
 
+    //! CHAPTER: .CREATEELEMENT() METHOD--------------------------------
+    //* .createelement() is a method when attached to a document creates html elements specified by tag name from our javascript.
 
+    // let box = document.createElement("div")
+    // box.classList.add("create")
+    // box.textContent = "Test"
 
+    // let body = document.querySelector("body")
 
+    // console.log(box)
 
+    // body.appendChild(box)
 
+    //!++++++++++++++++++++++++++++++++
 
+    // let image = document.createElement("img")
+    // console.log(image)
 
+    // body.appendChild(image)
+    // console.log(body)
 
+    //! CHAPTER: .SETATTRIBUTE() METHOD--------------------------------
+    //* it is used to set a value of an attribute to a specified element, if the attribute exists, the value is updated.
 
+    // let box = document.createElement("div")
+    // box.classList.add("create")
+    // box.textContent = "Test"
 
+    // let body = document.querySelector("body")
+    // let image = document.createElement("img")
 
+    // body.appendChild(box)
+    // body.appendChild(image)
 
+    //* image.setAttribute(key, value)  //!syntax!
 
+    // image.setAttribute("src", "src/images/headshot.jpg")
+    // image.setAttribute("data-id", 4)
 
+    // console.log(body)
 
+    //^ .GETATTRIBUTE() METHOD--------------------------------
 
+    // let imagePath = image.getAttribute("src")
+    // let imageId = image.getAttribute("data-id")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // console.log(imagePath)
+    // console.log(imageId)
 
 })
