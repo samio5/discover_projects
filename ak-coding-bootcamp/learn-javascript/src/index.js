@@ -1406,7 +1406,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const randomNumber = Math.random() * Tetrominoes.length
 
-    //^ 2) MATH.FLOOR() FUNCTION--------------------------------
+    ^ 2) MATH.FLOOR() FUNCTION--------------------------------
     //* Math floor rounds numbers down to the nearest full integer.
 
     const randomInteger = Math.floor(randomNumber)
@@ -1414,14 +1414,14 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(randomNumber)
     console.log(randomInteger)
 
-    //^ 3) MATH.CEIL() FUNCTION--------------------------------
+    ^ 3) MATH.CEIL() FUNCTION--------------------------------
     //* Math ceil rounds numbers up to the nearest full integer.
 
     const randomInteger1 = Math.ceil(randomNumber)
 
     console.log(randomInteger1)
 
-    //^ 4) MATH.ROUND() FUNCTION--------------------------------
+    ^ 4) MATH.ROUND() FUNCTION--------------------------------
     //* Math round rounds numbers to the nearest full integer.
 
     const randomInteger2 = Math.round(randomNumber)
@@ -1840,14 +1840,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //! PROJECT: RANDOM BURGER GENERATOR
     //* url: https://my-burger-api.herokuapp.com/burgers
+ 
+    let box = document.querySelector(".box")
+    let btn = document.querySelector(".btn")
 
-    //*GET REQUEST
+    box.innerHTML = "click to generate a random burger."
 
-    fetch("https://my-burger-api.herokuapp.com/burgers")
-    .then(response => response.json())
-    .then(data => console.log(data))
+    function getData() {
+        //* GET REQUEST:
+        fetch("https://my-burger-api.herokuapp.com/burgers")
+        .then(response => response.json())
+        .then(data => {
+        // console.log(data)
 
+        let randomNumber = Math.random() * data.length
+        let randomInteger = Math.floor(randomNumber)
 
+        let name = data[randomInteger].name
+        box.innerHTML = name
+    })
+    }
+
+    btn.addEventListener("click", getData)
 
     //!-----------------------------------------------------------------------------------------------------------
 

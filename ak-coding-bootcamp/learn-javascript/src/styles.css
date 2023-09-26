@@ -407,13 +407,23 @@ img {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    font-family: JetBrains Mono;
 }
 
 .box {
-    height: 200px;
+    height: 100px;
     width: 500px;
     background-color: blanchedalmond;
-    border-radius: 100px;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px;
+    /* text-decoration: underline; */
+    text-align: center;
 }
 
 .btn {
@@ -422,14 +432,12 @@ img {
     background-color: bisque;
     margin-top: 20px;
     border-radius: 100px;
-    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    font-style: italic;
-    text-transform: uppercase;
     cursor: pointer;
+    font-family: JetBrains Mono;
 }
 
 .btn:active {
