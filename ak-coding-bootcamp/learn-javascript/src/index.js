@@ -1808,4 +1808,47 @@ document.addEventListener('DOMContentLoaded', () => {
     // console.log(imagePath)
     // console.log(imageId)
 
+    //! CHAPTER: FETCH 
+    //* we use fetch to fetch a json file across the network and print it out to the console.
+
+    //* TO GET or GET REQUEST:
+    // fetch("https://restcountries.com/v3.1/all")
+    // .then((response) => response.json())
+    // .then((data) => console.log(data))
+
+    // fetch("https://api.punkapi.com/v2/beers")
+    // .then((response) => response.json())
+    // .then((data) => console.log(data))
+
+    // fetch("https://my-burger-api.herokuapp.com/burgers")
+    // .then((response) => response.json())
+    // .then((data) => console.log(data))
+
+    /* function getData() {
+        fetch("https://my-burger-api.herokuapp.com/burgers")
+        .then((response) => response.json())
+        .then((data) => {
+            console.log(data)
+            const name = data[0].name
+            console.log(name)
+        })
+    }
+
+    getData() */
+
+    //!-----------------------------------------------------------------------------------------------------------
+
+    //! PROJECT: RANDOM BURGER GENERATOR
+    //* url: https://my-burger-api.herokuapp.com/burgers
+
+    //*GET REQUEST
+
+    fetch("https://my-burger-api.herokuapp.com/burgers")
+    .then(response => response.json())
+    .then(data => console.log(data))
+
+
+
+    //!-----------------------------------------------------------------------------------------------------------
+
 })
