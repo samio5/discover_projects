@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(48, 52, 67);
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.grid {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(48, 52, 67);
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 97.1px;
+    margin: 12px;
+}
