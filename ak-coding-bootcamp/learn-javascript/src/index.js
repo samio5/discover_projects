@@ -1808,7 +1808,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // console.log(imagePath)
     // console.log(imageId)
 
-    //! CHAPTER: FETCH 
+    //! CHAPTER: FETCH REQUEST
     //* we use fetch to fetch a json file across the network and print it out to the console.
 
     //* TO GET or GET REQUEST:
@@ -1841,28 +1841,75 @@ document.addEventListener('DOMContentLoaded', () => {
     //! PROJECT: RANDOM BURGER GENERATOR
     //* url: https://my-burger-api.herokuapp.com/burgers
  
-    let box = document.querySelector(".box")
-    let btn = document.querySelector(".btn")
+    // let box = document.querySelector(".box")
+    // let btn = document.querySelector(".btn")
 
-    box.innerHTML = "click to generate a random burger."
+    // box.innerHTML = "click to generate a random burger."
 
-    function getData() {
-        //* GET REQUEST:
-        fetch("https://my-burger-api.herokuapp.com/burgers")
-        .then(response => response.json())
-        .then(data => {
-        // console.log(data)
+    // function getData() {
+    //     //* GET REQUEST:
+    //     fetch("https://my-burger-api.herokuapp.com/burgers")
+    //     .then(response => response.json())
+    //     .then(data => {
+    //     console.log(data)
 
-        let randomNumber = Math.random() * data.length
-        let randomInteger = Math.floor(randomNumber)
+    //     let randomNumber = Math.random() * data.length
+    //     let randomInteger = Math.floor(randomNumber)
 
-        let name = data[randomInteger].name
-        box.innerHTML = name
-    })
-    }
+    //     let name = data[randomInteger].name
+    //     box.innerHTML = name
+    // })
+    // }
 
-    btn.addEventListener("click", getData)
+    // btn.addEventListener("click", getData)
 
     //!-----------------------------------------------------------------------------------------------------------
+
+    //! CHAPTER: POST REQUEST
+    //* post request is the ability to post data to an api.
+
+    //* syntax:
+    const data = {
+        "id": 28,
+        "name": "Burger Boutique",
+        "restaurant": "Burger Boutique",
+        "web": "https://gastronomica-me.com/",
+        "description": "burger with hatch green chiles, bacon and cheese",
+        "ingredients": [
+            "beef",
+            "cheese",
+            "tomato",
+            "mayonnaise sauce",
+            "ketchup sauce",
+            "lettuce",
+            "pickle",
+            "onion"
+        ],
+        "addresses": [
+            {
+            "addressId": 0,
+            "number": "",
+            "line1": "Musa Ibn Nusair St",
+            "line2": "Al Olaya, Riyadh",
+            "postcode": "12214",
+            "country": "Saudi Arabia"
+            }
+        ]
+    }
+
+    fetch("https://xxxx", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("Success:", data)
+    })
+    .catch((error) => {
+        console.error("Error:", error)
+    })
 
 })
