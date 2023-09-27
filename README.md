@@ -1,9 +1,9 @@
 # My Coding projects:
 
-1. First HTML project
-2. Anya Kubow
+1. HTML
+2. AK
 3. 100Devs
-4. Shay Howe
-5. Shay Howe Advanced
-6. Side Hustle
-7. Tailwind Projects
+4. Shae Howe
+5. Shae Howe Advanced
+6. SH
+7. Tailwind
