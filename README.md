@@ -1,4 +1,4 @@
-# My Coding projects:
+# My Discover projects:
 
 1. HTML
 2. AK
