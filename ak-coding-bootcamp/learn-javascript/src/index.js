@@ -1869,12 +1869,12 @@ document.addEventListener('DOMContentLoaded', () => {
     //* post request is the ability to post data to an api.
 
     //* syntax:
-    const data = {
-        "id": 28,
+    /* const data = {
+        "id": 29,
         "name": "Burger Boutique",
         "restaurant": "Burger Boutique",
         "web": "https://gastronomica-me.com/",
-        "description": "burger with hatch green chiles, bacon and cheese",
+        "description": "Burgers made from organic grass-fed beef devoid of antibiotics and hormones; domination of concrete, rusted metal and wood in the interior design; packaging solutions made from 100% recycled paper justifying the approach.",
         "ingredients": [
             "beef",
             "cheese",
@@ -1897,7 +1897,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     }
 
-    fetch("https://xxxx", {
+    fetch("https://my-burger-api.herokuapp.com/burgers", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -1910,6 +1910,69 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch((error) => {
         console.error("Error:", error)
-    })
+    }) */
 
+    //! CHAPTER: PUT REQUEST
+    //* put request is used to edit an object, it is one of the common methods of retrieving and sending requests
+
+    /* const data = {
+        "id": 28,
+        "name": "Burger Boutique",
+        "restaurant": "Burger Boutique",
+        "web": "https://gastronomica-me.com/",
+        "description": "Burgers made from organic grass-fed beef devoid of antibiotics and hormones; domination of concrete, rusted metal and wood in the interior design; packaging solutions made from 100% recycled paper justifying the approach.",
+        "ingredients": [
+            "beef",
+            "cheese",
+            "tomato",
+            "mayonnaise sauce",
+            "ketchup sauce",
+            "lettuce",
+            "pickle",
+            "onion"
+        ],
+        "addresses": [
+            {
+            "addressId": 0,
+            "number": "",
+            "line1": "Musa Ibn Nusair St",
+            "line2": "Al Olaya, Riyadh",
+            "postcode": "12214",
+            "country": "Saudi Arabia"
+            }
+        ]
+    }
+
+    function editData() {
+        //* syntax:
+        fetch("https://my-burger-api.herokuapp.com/burgers/28", {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log("Success:", data)
+        })
+        .catch((error) => {
+            console.error("Error:", error)
+        })
+    }
+
+    editData() */
+
+    //! CHAPTER: DELETE REQUEST
+
+    /* fetch("https://my-burger-api.herokuapp.com/burgers/29", {
+            method: "DELETE",
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log("Success:", data)
+        })
+        .catch((error) => {
+            console.error("Error:", error)
+        }) */
 })
