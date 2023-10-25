@@ -1529,7 +1529,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // setTimeout(function(){pill.style.display = "flex"}, 6000)
 
     //! CHAPTER: SETINTERVAL() METHOD--------------------------------
-    //* the set timeout method calls a function or evaluates a expression at specified intervals. it will continue calling the function until the interval is cleared or the window closes.
+    //* the set interval method calls a function or evaluates an expression at specified intervals. it will continue calling the function until the interval is cleared or the window closes.
 
     // setInterval(function, milliseconds) //* SYNTAX!
 
