@@ -15,6 +15,8 @@ Alt+ ↑ / ↓ Move line up/down
 Shift+Alt + ↓ / ↑ Copy line up/down 
 Ctrl+Shift+K Delete line 
 Ctrl+Enter Insert line below 
+
+
 Ctrl+Shift+Enter Insert line above 
 Ctrl+Shift+\ Jump to matching bracket 
 Ctrl+] / [ Indent/outdent line 
