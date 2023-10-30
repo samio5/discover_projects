@@ -7,3 +7,4 @@
 5. Shae Howe Advanced
 6. SH
 7. Tailwind
+8. Cheatsheets
