@@ -32,7 +32,7 @@ Ctrl+K Ctrl+] Unfold (uncollapse) all subregions
 Ctrl+K Ctrl+0 Fold (collapse) all regions 
 Ctrl+K Ctrl+J Unfold (uncollapse) all regions 
 Ctrl+K Ctrl+C Add line comment 
-Ctrl+K Ctrl+U Remove line comment 
+Ctrl+K Ctrl+U Remove line comment
 Ctrl+/ Toggle line comment 
 Shift+Alt+A Toggle block comment 
 Alt+Z Toggle word wrap 
